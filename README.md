@@ -19,9 +19,12 @@ like exposing a local webserver via a public address.
 
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
 * [localtunnel](https://github.com/localtunnel) - Written in node. Popular suggestion.
+* [frp](https://github.com/fatedier/frp) - Seems to be a pretty comprehensive open alternative to ngrok.
+* [inlets](https://github.com/inlets) - Open source ngrok alternative. Has pro option.
+* [go-http-tunnel](https://github.com/mmatczuk/go-http-tunnel) - Uses a single HTTP/2 connection for muxing, so likely avoids TCP-over-TCP issues. Need to manually generate certs for server and clients.
+* [sish](https://github.com/antoniomika/sish) - Open source ngrok/serveo alternative. SSH-based but uses a custom server written in Go. Supports WebSocket tunneling.
 * [PageKite](https://pagekite.net/) - Comprehensive open source solution with hosted options. 
 * [ngrok 1.0](https://github.com/inconshreveable/ngrok) - Original version of ngrok. No longer developed in favor of the commercial 2.0 version.
-* [frp](https://github.com/fatedier/frp) - Seems to be a pretty comprehensive open alternative to ngrok.
 * [holepunch.io](https://holepunch.io) - Has nice hosted solution. Uses SSH for muxing. ([code](https://github.com/CypherpunkArmory/punch/)).
 * [CloudFlare Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/) - $5/mo + $0.1/GB. Integrates with Argo smart routing. Client source code is [available](https://github.com/cloudflare/cloudflared).
 * [Telebit](https://telebit.cloud/) - Written in JS. [Open source](https://git.coolaj86.com/coolaj86/telebit.js).
@@ -33,8 +36,6 @@ like exposing a local webserver via a public address.
 * [chisel](https://github.com/jpillora/chisel) - Another HTTPS+SSH option.
 * [tunneller](https://github.com/skx/tunneller) - Open source. Written in Go.
 * [docker-tunnel](https://github.com/vitobotta/docker-tunnel) - Simple Docker-based nginx+SSH solution.
-* [go-http-tunnel](https://github.com/mmatczuk/go-http-tunnel) - Uses a single HTTP/2 connection for muxing, so likely avoids TCP-over-TCP issues. Need to manually generate certs for server and clients.
-* [sish](https://github.com/antoniomika/sish) - Open source ngrok/serveo alternative. SSH-based but uses a custom server written in Go. Supports WebSocket tunneling.
 
 
 # Blog posts
