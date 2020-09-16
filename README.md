@@ -15,7 +15,7 @@ like exposing a local webserver via a public address.
   create the tun devices.
 
 
-# The tools
+# The list
 
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
 * [localtunnel](https://github.com/localtunnel) - Written in node. Popular suggestion.
@@ -32,8 +32,15 @@ like exposing a local webserver via a public address.
 * [expose](https://github.com/beyondcode/expose) - ngrok alternative written in PHP.
 * [chisel](https://github.com/jpillora/chisel) - Another HTTPS+SSH option.
 * [tunneller](https://github.com/skx/tunneller) - Open source. Written in Go.
+* [docker-tunnel](https://github.com/vitobotta/docker-tunnel) - Simple Docker-based nginx+SSH solution.
+* [go-http-tunnel](https://github.com/mmatczuk/go-http-tunnel) - Uses a single HTTP/2 connection for muxing, so likely avoids TCP-over-TCP issues. Need to manually generate certs for server and clients.
 
 
-# Discussions of different solutions and tradeoffs
+# Blog posts
+
+* [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
+
+
+# Discussions
 
 * [HN comment about needing Namecheap + CloudFlare + ngrok](https://news.ycombinator.com/item?id=24475946).
