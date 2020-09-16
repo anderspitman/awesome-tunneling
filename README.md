@@ -1,9 +1,21 @@
 The purpose of this list is to track and compare tunneling solutions. This is
-primarily targeting toward developers who want to do things like exposing a
-local webserver via a public address.
+primarily targeting toward developers and self-hosters who want to do things
+like exposing a local webserver via a public address.
 
 
-# Software
+# Things to look out for when comparing solutions
+
+* Underlying multiplexing technology. In particular, if a solution uses
+  TCP-over-TCP (ie any of them that are built on SSH), it'll be subject to
+  rather severe [issues](http://sites.inka.de/bigred/devel/tcp-tcp.html).
+* Source code availability. Some of the best options are closed source only.
+* Does it require root to run the client? For example, anything built on
+  WireGuard will likely have great performance (on systems where it's built
+  into the kernel at least), but typically requires elevated permissions to
+  create the tun devices.
+
+
+# The tools
 
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
 * [localtunnel](https://github.com/localtunnel) - Written in node. Popular suggestion.
