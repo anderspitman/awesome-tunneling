@@ -34,6 +34,7 @@ like exposing a local webserver via a public address.
 * [tunneller](https://github.com/skx/tunneller) - Open source. Written in Go.
 * [docker-tunnel](https://github.com/vitobotta/docker-tunnel) - Simple Docker-based nginx+SSH solution.
 * [go-http-tunnel](https://github.com/mmatczuk/go-http-tunnel) - Uses a single HTTP/2 connection for muxing, so likely avoids TCP-over-TCP issues. Need to manually generate certs for server and clients.
+* [sish](https://github.com/antoniomika/sish) - Open source ngrok/serveo alternative. SSH-based but uses a custom server written in Go. Supports WebSocket tunneling.
 
 
 # Blog posts
