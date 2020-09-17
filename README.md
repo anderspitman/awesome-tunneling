@@ -2,6 +2,20 @@ The purpose of this list is to track and compare tunneling solutions. This is
 primarily targeting toward developers and self-hosters who want to do things
 like exposing a local webserver via a public address.
 
+# The dream
+
+I started this list because I'm looking for a simple tool/service that does the
+following:
+
+* Allows me to register a domain name.
+* Automatically sets up HTTPS (apex and wildcard) for the domain.
+* Provides a client tool that tunnels TCP connects through the server without
+  requiring root on the client.
+* Provides a web interface to allow me to map X domain/subdomain to Y port on
+  Z client, and proxy all connections to that domain.
+
+So far I haven't found it so I've started building it myself.
+
 
 # Things to look out for when comparing solutions
 
