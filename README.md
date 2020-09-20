@@ -7,14 +7,15 @@ like exposing a local webserver via a public address.
 I started this list because I'm looking for a simple tool/service that does the
 following:
 
-* Allows me to register a domain name.
+* Allows me to register a domain name and set the records to point it at the
+  server.
 * Automatically sets up HTTPS (apex and wildcard) for the domain.
 * Provides a client tool that tunnels TCP connects through the server without
   requiring root on the client.
 * Provides a web interface to allow me to map X domain/subdomain to Y port on
   Z client, and proxy all connections to that domain.
 
-So far I haven't found it so I've started building it myself.
+So far I haven't found it.
 
 
 # Things to look out for when comparing solutions
@@ -61,6 +62,7 @@ So far I haven't found it so I've started building it myself.
 # Blog posts
 
 * [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
+* [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
 
 
 # Discussions
