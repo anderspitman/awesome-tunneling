@@ -18,18 +18,6 @@ following:
 So far I haven't found it.
 
 
-# Things to look out for when comparing solutions
-
-* Underlying multiplexing technology. In particular, if a solution uses
-  TCP-over-TCP (ie any of them that are built on SSH), it'll be subject to
-  rather severe [issues](http://sites.inka.de/bigred/devel/tcp-tcp.html).
-* Source code availability. Some of the best options are closed source only.
-* Does it require root to run the client? For example, anything built on
-  WireGuard will likely have great performance (on systems where it's built
-  into the kernel at least), but typically requires elevated permissions to
-  create the tun devices.
-
-
 # The list
 
 # Open source
@@ -42,7 +30,7 @@ So far I haven't found it.
 * [chisel](https://github.com/jpillora/chisel) [![chisel github stars badge](https://img.shields.io/github/stars/jpillora/chisel?style=flat)](https://github.com/jpillora/chisel/stargazers) - Another HTTPS+SSH option.
 * [expose](https://github.com/beyondcode/expose) [![expose github stars badge](https://img.shields.io/github/stars/beyondcode/expose?style=flat)](https://github.com/beyondcode/expose/stargazers) - ngrok alternative written in PHP.
 * [teleconsole](https://www.teleconsole.com/) [![teleconsole github stars badge](https://img.shields.io/github/stars/gravitational/teleconsole?style=flat)](https://github.com/gravitational/teleconsole/stargazers) - SSH-based, but uses special client script. Focused on forwarding SSH console sessions, but can also forward ports.
-* [go-http-tunnel](https://github.com/mmatczuk/go-http-tunnel) [![go-http-tunnel github stars badge](https://img.shields.io/github/stars/mmatczuk/go-http-tunnel?style=flat)](https://github.com/mmatczuk/go-http-tunnel/stargazers) - Uses a single HTTP/2 connection for muxing, so likely avoids TCP-over-TCP issues. Need to manually generate certs for server and clients.
+* [go-http-tunnel](https://github.com/mmatczuk/go-http-tunnel) [![go-http-tunnel github stars badge](https://img.shields.io/github/stars/mmatczuk/go-http-tunnel?style=flat)](https://github.com/mmatczuk/go-http-tunnel/stargazers) - Uses a single HTTP/2 connection for muxing. Need to manually generate certs for server and clients.
 * [sish](https://github.com/antoniomika/sish) [![sish github stars badge](https://img.shields.io/github/stars/antoniomika/sish?style=flat)](https://github.com/antoniomika/sish/stargazers) - Open source ngrok/serveo alternative. SSH-based but uses a custom server written in Go. Supports WebSocket tunneling.
 * [PageKite](https://pagekite.net/) [![pagekite github stars badge](https://img.shields.io/github/stars/pagekite/PyPagekite?style=flat)](https://github.com/pagekite/PyPagekite/stargazers) - Comprehensive open source solution with hosted options. 
 * [slt](https://github.com/inconshreveable/slt) [![slt github stars badge](https://img.shields.io/github/stars/inconshreveable/slt?style=flat)](https://github.com/inconshreveable/slt/stargazers) - Open source TLS proxy from the creator of ngrok. Supports SNI.
