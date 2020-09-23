@@ -7,18 +7,19 @@ like exposing a local webserver via a public address.
 I started this list because I'm looking for a simple tool/service that does the
 following:
 
-* Allows me to register a domain name and set the records to point it at the
-  server.
-* Automatically sets up HTTPS (apex and wildcard) for the domain.
+* Allows me to register a domain name and automatically points the records at
+  the server running the tunnels.
+* Automatically sets up and manages HTTPS certificates (apex and subdomains)
+  for the domain.
 * Provides a client tool that tunnels TCP connects through the server without
   requiring root on the client.
-* Provides a web interface to allow me to map X domain/subdomain to Y port on
-  Z client, and proxy all connections to that domain.
+* Provides a simple interface to allow me to map X domain/subdomain to Y port
+  on Z client, and proxy all connections to that domain.
 
-So far I haven't found it.
+So far I haven't found a tool that does all of this. In particular, while some
+of them can do automatic certs through Lets's Encrypt, none of them integrate
+the domain registration and DNS management.
 
-
-# The list
 
 # Open source
 
