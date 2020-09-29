@@ -21,13 +21,14 @@ of them can do automatic certs through Lets's Encrypt, none of them integrate
 the domain registration and DNS management.
 
 
-# Open source
+# Open source (at least with a reasonably permissive license)
 
 * [frp](https://github.com/fatedier/frp) [![frp github stars badge](https://img.shields.io/github/stars/fatedier/frp?style=flat)](https://github.com/fatedier/frp/stargazers) - Seems to be a pretty comprehensive open alternative to ngrok.
 * [ngrok 1.0](https://github.com/inconshreveable/ngrok) [![ngrok 1.0 github stars badge](https://img.shields.io/github/stars/inconshreveable/ngrok?style=flat)](https://github.com/inconshreveable/ngrok/stargazers) - Original version of ngrok. No longer developed in favor of the commercial 2.0 version.
 * [localtunnel](https://github.com/localtunnel) [![localtunnel github stars badge](https://img.shields.io/github/stars/localtunnel/localtunnel?style=flat)](https://github.com/localtunnel/localtunnel/stargazers) - Written in node. Popular suggestion.
 * [inlets](https://github.com/inlets) [![inlets github stars badge](https://img.shields.io/github/stars/inlets/inlets?style=flat)](https://github.com/inlets/inlets/stargazers) - Open source ngrok alternative. Has pro option.
 * [sshuttle](https://github.com/sshuttle/sshuttle) [![sshuttle github stars badge](https://img.shields.io/github/stars/sshuttle/sshuttle?style=flat)](https://github.com/sshuttle/sshuttle/stargazers) - Open source project originally from one of the founders of Tailscale. Server doesn't require root; client does. Explicitly designed to avoid TCP-over-TCP issues.
+* [ZeroTier](https://www.zerotier.com/) - [![zerotier github stars badge](https://img.shields.io/github/stars/zerotier/ZeroTierOne?style=flat)](https://github.com/zerotier/ZeroTierOne/stargazers) Layer 2 overlay network.
 * [chisel](https://github.com/jpillora/chisel) [![chisel github stars badge](https://img.shields.io/github/stars/jpillora/chisel?style=flat)](https://github.com/jpillora/chisel/stargazers) - SSH under the hood, but still uses a custom client binary. Supports auto certs from LetsEncrypt.
 * [expose](https://github.com/beyondcode/expose) [![expose github stars badge](https://img.shields.io/github/stars/beyondcode/expose?style=flat)](https://github.com/beyondcode/expose/stargazers) - ngrok alternative written in PHP.
 * [teleconsole](https://www.teleconsole.com/) [![teleconsole github stars badge](https://img.shields.io/github/stars/gravitational/teleconsole?style=flat)](https://github.com/gravitational/teleconsole/stargazers) - SSH-based, but uses special client script. Focused on forwarding SSH console sessions, but can also forward ports.
@@ -45,11 +46,10 @@ the domain registration and DNS management.
 * [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 
-# Commerical/Closed source
+# Commercial/Closed source
 
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
-* [ZeroTier](https://www.zerotier.com/) - [Code](https://github.com/zerotier/). Layer 2 overlay network.
-* [Tailscale](https://www.tailscale.com/) - Built on WireGuard. Easy to use. Doesn't include an HTTPS proxy on the public side, but could be combined with nginx/Caddy/etc.
+* [Tailscale](https://www.tailscale.com/) - [![tailscale github stars badge](https://img.shields.io/github/stars/tailscale/tailscale?style=flat)](https://github.com/tailscale/tailscale/stargazers) Built on WireGuard. Easy to use. Doesn't include an HTTPS proxy on the public side, but could be combined with nginx/Caddy/etc. Some [code](https://github.com/tailscale) available, but I'm not sure what the implications of the custom license is.
 * [CloudFlare Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/) - $5/mo + $0.1/GB. Integrates with Argo smart routing. Client source code is [available](https://github.com/cloudflare/cloudflared).
 * [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
 * [serveo](https://serveo.net) - Mentioned quite a bit the last couple years, but appears to be down currently. Simply uses SSH for tunneling.
