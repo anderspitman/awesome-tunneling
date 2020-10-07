@@ -1,5 +1,5 @@
 The purpose of this list is to track and compare tunneling solutions. This is
-primarily targeting toward developers and self-hosters who want to do things
+primarily targeted toward developers and self-hosters who want to do things
 like exposing a local webserver via a public address.
 
 # The dream
@@ -54,6 +54,7 @@ the domain registration and DNS management.
 * [CloudFlare Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/) - $5/mo + $0.1/GB. Integrates with Argo smart routing. Client source code is [available](https://github.com/cloudflare/cloudflared).
 * [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
 * [Packetriot](https://packetriot.com) - Comprehensive alternative to ngrok.  HTTP Inspector, Let's Encrypt integration, doesn't require root and Linux repos for apt, yum and dnf.  Enterprise licenses and self-hosted option.
+* [Lynk](https://lynk.sh/) - Advertises itself as a cheaper, faster, self-hostable (but not open source) alternative to ngrok. [Blog post](https://medium.com/@shivanshvij/building-a-better-ngrok-dbc104754822).
 * [serveo](https://serveo.net) - Mentioned quite a bit the last couple years, but appears to be down currently. Simply uses SSH for tunneling.
 
 
