@@ -11,8 +11,8 @@ following:
   the server running the tunnels.
 * Automatically sets up and manages HTTPS certificates (apex and subdomains)
   for the domain.
-* Provides a client tool that tunnels TCP connects through the server without
-  requiring root on the client.
+* Provides a client tool that tunnels HTTP/TCP connections through the server
+  without requiring root on the client.
 * Provides a simple interface to allow me to map X domain/subdomain to Y port
   on Z client, and proxy all connections to that domain.
 
