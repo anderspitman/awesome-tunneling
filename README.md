@@ -1,6 +1,6 @@
 The purpose of this list is to track and compare tunneling solutions. This is
 primarily targeted toward developers and self-hosters who want to do things
-like exposing a local webserver via a public address.
+like exposing a local webserver via a public domain name, with automatic HTTPS.
 
 # The dream
 
