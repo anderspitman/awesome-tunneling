@@ -20,6 +20,10 @@ So far I haven't found a tool that does all of this. In particular, while some
 of them can do automatic certs through Lets's Encrypt, none of them integrate
 the domain registration and DNS management.
 
+**UPDATE:** [boringproxy](https://boringproxy.io/) is my take on a solution to
+this problem. It's in beta but currently solves everything above except auto
+DNS management, and that's planned.
+
 
 # Open source (at least with a reasonably permissive license)
 
