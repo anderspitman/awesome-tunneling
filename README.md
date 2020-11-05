@@ -1,5 +1,5 @@
 The purpose of this list is to track and compare tunneling solutions. This is
-primarily targeted toward developers and self-hosters who want to do things
+primarily targeted toward self-hosters and developers who want to do things
 like exposing a local webserver via a public domain name, with automatic HTTPS.
 
 # The dream
@@ -13,7 +13,7 @@ following:
   for the domain.
 * Provides a client tool that tunnels HTTP/TCP connections through the server
   without requiring root on the client.
-* Provides a simple interface to allow me to map X domain/subdomain to Y port
+* Provides a simple GUI interface to allow me to map X domain/subdomain to Y port
   on Z client, and proxy all connections to that domain.
 
 So far I haven't found a tool that does all of this. In particular, while some
