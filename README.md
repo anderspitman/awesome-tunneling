@@ -1,6 +1,7 @@
 The purpose of this list is to track and compare tunneling solutions. This is
 primarily targeted toward self-hosters and developers who want to do things
-like exposing a local webserver via a public domain name, with automatic HTTPS.
+like exposing a local webserver via a public domain name, with automatic HTTPS,
+even if behind a NAT or other restricted network.
 
 # The dream
 
