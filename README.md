@@ -69,11 +69,13 @@ DNS management, and that's planned.
 * [serveo](https://serveo.net) - Mentioned quite a bit the last couple years, but appears to be down currently. Simply uses SSH for tunneling.
 
 
-# Blog posts
+# Reference
 
 * [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
 * [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
 * [How I built Ngrok Alternative (jprq)](https://dev.to/azimjohn/how-i-built-ngrok-alternative-3n0g)
+* [Great SO answer by AJ ONeal about how these things work](https://stackoverflow.com/a/52614266/943814)
+* [Talk by AJ ONeal about tunneling tech](https://youtu.be/E1Q2MWGCADo)
 
 
 # Discussions
