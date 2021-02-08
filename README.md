@@ -21,9 +21,19 @@ So far I haven't found a tool that does all of this. In particular, while some
 of them can do automatic certs through Lets's Encrypt, none of them integrate
 the domain registration and DNS management.
 
-**UPDATE:** [boringproxy](https://boringproxy.io/) is my take on a solution to
-this problem. It's in beta but currently solves everything above except auto
-DNS management, and that's planned.
+**UPDATE:** Since starting this list I found most of the other solutions to be
+either too complicated or making different tradeoffs than I would want. I have
+two of my own projects in this space:
+
+1. [SirTunnel](https://github.com/anderspitman/SirTunnel) is I believe the
+minimal way of getting auto-HTTPS tunneled through to a private network.
+It's just a 50-line Python script that leverages Caddy and OpenSSH, but you
+need to understand how it works to use it. This one is good for developers.
+
+2. [boringproxy](https://boringproxy.io/) is my take on a comprehensive tunnel
+proxy solution. It's in beta but currently solves almost everything I want except
+auto DNS management, and that's planned. Once the server is running this is a very
+easy tool to use, and is targeted at non-developers.
 
 
 # Open source (at least with a reasonably permissive license)
