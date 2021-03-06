@@ -76,6 +76,7 @@ easy tool to use, and is targeted at non-developers.
 * [Lynk](https://lynk.sh/) - Advertises itself as a cheaper, faster, self-hostable (but not open source) alternative to ngrok. [Blog post](https://medium.com/@shivanshvij/building-a-better-ngrok-dbc104754822).
 * [Hoppy](https://hoppy.network/) - WireGuard-based. Provides static IPv4 and IPv6 addresses for your machines, which is a simple and useful level of abstraction. Targeted towards self-hosters and people behind NATs.
 * [gw.run](https://gw.run/) - Specifically focusing on securely exposing internal web apps to a group of people; not for publicly facing apps. Share access via email address then allow users to log in with common login providers like Google.
+* [KubeSail] Company offering tunneling, dynamic DNS and other services for self-hosting with Kubernetes.
 * [serveo](https://serveo.net) - Mentioned quite a bit the last couple years, but appears to be down currently. Simply uses SSH for tunneling.
 
 
