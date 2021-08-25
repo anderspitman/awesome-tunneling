@@ -90,6 +90,7 @@ easy tool to use, and is targeted at non-developers.
 * [How I built Ngrok Alternative (jprq)](https://dev.to/azimjohn/how-i-built-ngrok-alternative-3n0g)
 * [Great SO answer by AJ ONeal about how these things work](https://stackoverflow.com/a/52614266/943814)
 * [Talk by AJ ONeal about tunneling tech](https://youtu.be/E1Q2MWGCADo)
+* [ngrok alternative: localtunnel + Caddy + Lets Encrypt](https://morph027.gitlab.io/blog/localtunnel-ngrok/)
 
 
 # Discussions
