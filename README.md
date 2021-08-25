@@ -66,6 +66,7 @@ easy tool to use, and is targeted at non-developers.
 * [tnnlink](https://github.com/LiljebergXYZ/tnnlink) [![tnnlink github stars badge](https://img.shields.io/github/stars/LiljebergXYZ/tnnlink?style=flat)](https://github.com/LiljebergXYZ/tnnlink/stargazers) - SSH-based. Golang. Not maintained.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 * [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
+* [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) - Ngrok but integrated with Kubernetes, allow developer on private kubernetes to easily access their services via Ngrok!.
 
 # Commercial/Closed source
 
