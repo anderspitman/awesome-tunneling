@@ -76,7 +76,6 @@ easy tool to use, and is targeted at non-developers.
 * [CloudFlare Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/) - [Free usage](https://blog.cloudflare.com/a-free-argo-tunnel-for-your-next-project/#how-can-i-use-the-free-version) available. $5/mo + $0.1/GB. Integrates with Argo smart routing. Client source code is [available](https://github.com/cloudflare/cloudflared).
 * [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
 * [Packetriot](https://packetriot.com) - Comprehensive alternative to ngrok.  HTTP Inspector, Let's Encrypt integration, doesn't require root and Linux repos for apt, yum and dnf.  Enterprise licenses and self-hosted option.
-* [Lynk](https://lynk.sh/) - Advertises itself as a cheaper, faster, self-hostable (but not open source) alternative to ngrok. [Blog post](https://medium.com/@shivanshvij/building-a-better-ngrok-dbc104754822).
 * [Hoppy](https://hoppy.network/) - WireGuard-based. Provides static IPv4 and IPv6 addresses for your machines, which is a simple and useful level of abstraction. Targeted towards self-hosters and people behind NATs.
 * [gw.run](https://gw.run/) - Specifically focusing on securely exposing internal web apps to a group of people; not for publicly facing apps. Share access via email address then allow users to log in with common login providers like Google.
 * [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple python script.
