@@ -79,7 +79,7 @@ easy tool to use, and is targeted at non-developers.
 * [gw.run](https://gw.run/) - Specifically focusing on securely exposing internal web apps to a group of people; not for publicly facing apps. Share access via email address then allow users to log in with common login providers like Google.
 * [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple python script.
 * [KubeSail](https://kubesail.com/) - Company offering tunneling, dynamic DNS, and other services for self-hosting with Kubernetes.
-* [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to working well with Kubernetes.
+* [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to work well with Kubernetes.
 * [LocalToNet](https://localtonet.com/) - Supports UDP. Free for a single tunnel. Paid supports custom domains.
 
 # Reference
