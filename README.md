@@ -80,7 +80,7 @@ easy tool to use, and is targeted at non-developers.
 * [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple python script.
 * [KubeSail](https://kubesail.com/) - Company offering tunneling, dynamic DNS, and other services for self-hosting with Kubernetes.
 * [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to working well with Kubernetes.
-
+* [LocalToNet](https://localtonet.com/) - Supports UDP. Free for a single tunnel. Paid supports custom domains.
 
 # Reference
 
