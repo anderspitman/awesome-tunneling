@@ -98,3 +98,5 @@ easy tool to use, and is targeted at non-developers.
 # Discussions
 
 * [HN comment about needing Namecheap + CloudFlare + ngrok](https://news.ycombinator.com/item?id=24475946).
+
+<img src="https://awesome-tunneling-github.goatcounter.com/count?p=/">
