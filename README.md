@@ -2,6 +2,8 @@
 
 ![](https://takingnames.io/logo.svg)
 
+![])(https://awesome-tunneling-stats.apitman.com/count?p=/test)
+
 The purpose of this list is to track and compare tunneling solutions. This is
 primarily targeted toward self-hosters and developers who want to do things
 like exposing a local webserver via a public domain name, with automatic HTTPS,
