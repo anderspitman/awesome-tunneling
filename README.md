@@ -1,3 +1,7 @@
+![](https://awesome-tunneling-github.goatcounter.com/count?p=/)
+
+![](https://takingnames.io/logo.svg)
+
 The purpose of this list is to track and compare tunneling solutions. This is
 primarily targeted toward self-hosters and developers who want to do things
 like exposing a local webserver via a public domain name, with automatic HTTPS,
@@ -99,4 +103,4 @@ easy tool to use, and is targeted at non-developers.
 
 * [HN comment about needing Namecheap + CloudFlare + ngrok](https://news.ycombinator.com/item?id=24475946).
 
-![](https://awesome-tunneling-github.goatcounter.com/count?p=/)
+
