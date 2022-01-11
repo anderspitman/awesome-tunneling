@@ -40,7 +40,7 @@ on the list above.
 
 Maintenance of this list is now also sponsored by TakingNames.io.
 
-<a href='https://takingnames.io'>
+<a href='https://takingnames.io/blog/introducing-takingnames-io'>
   <img src='https://user-images.githubusercontent.com/7820200/148330003-5f8062ff-22b2-423d-b945-3db87abf10e5.png' width='400'></img>
 </a>
 
