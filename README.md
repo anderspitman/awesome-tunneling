@@ -3,7 +3,7 @@ primarily targeted toward self-hosters and developers who want to do things
 like exposing a local webserver via a public domain name, with automatic HTTPS,
 even if behind a NAT or other restricted network.
 
-# The dream
+# The dream (Sep 2020)
 
 I started this list because I'm looking for a simple tool/service that does the
 following:
@@ -17,23 +17,32 @@ following:
 * Provides a simple GUI interface to allow me to map X domain/subdomain to Y port
   on Z client, and proxy all connections to that domain.
 
-So far I haven't found a tool that does all of this. In particular, while some
+~~So far I haven't found a tool that does all of this. In particular, while some
 of them can do automatic certs through Lets's Encrypt, none of them integrate
-the domain registration and DNS management.
+the domain registration and DNS management.~~
 
-**UPDATE:** Since starting this list I found most of the other solutions to be
-either too complicated or making different tradeoffs than I would want. I have
-two of my own projects in this space:
+## UPDATE (Jan 2022)
 
-1. [SirTunnel](https://github.com/anderspitman/SirTunnel) is I believe the
-minimal way of getting auto-HTTPS tunneled through to a private network.
-It's just a 50-line Python script that leverages Caddy and OpenSSH, but you
-need to understand how it works to use it. This one is good for developers.
+Since starting this list, things have changed considerably.
+First, Cloudflare Argo Tunnel was renamed to [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup)
+and changed to a free product. Cloudflare also launched their [domain registrar](https://www.cloudflare.com/products/registrar/).
+If you're looking for a simple production-quality tunneling solution, Cloudflare is
+what I recommend for most people today. It doesn't provide a GUI for managing
+tunnels, and you have to trust Cloudflare with your data, but it's a very
+good product.
 
-2. [boringproxy](https://boringproxy.io/) is my take on a comprehensive tunnel
-proxy solution. It's in beta but currently solves almost everything I want except
-auto DNS management, and that's planned. Once the server is running this is a very
-easy tool to use, and is targeted at non-developers.
+That said, at the same time Cloudflare was making these changes, I started
+two projects of my own: [boringproxy](https://boringproxy.io/), an open
+source, end-to-end encrypted tunneling system, and [TakingNames.io](https://takingnames.io/blog/introducing-takingnames-io),
+a domain name provider designed for self-hosters and based on open protocols.
+Now that it's integrated with TakingNames.io, boringproxy checks all the boxes
+on the list above.
+
+Maintenance of this list is now also sponsored by TakingNames.io.
+
+<a href='https://takingnames.io'>
+  <img src='https://user-images.githubusercontent.com/7820200/148330003-5f8062ff-22b2-423d-b945-3db87abf10e5.png' width='400'></img>
+</a>
 
 
 # Open source (at least with a reasonably permissive license)
