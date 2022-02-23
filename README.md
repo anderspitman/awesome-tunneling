@@ -73,7 +73,7 @@ easy tool to use, and is targeted at non-developers.
 # Commercial/Closed source
 
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
-* [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client source code is [available](https://github.com/cloudflare/cloudflared).
+* [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client [source code](https://github.com/cloudflare/cloudflared) is Apache 2.0 licensed and written in Golang.
 * [Tailscale](https://www.tailscale.com/) [![tailscale github stars badge](https://img.shields.io/github/stars/tailscale/tailscale?style=flat)](https://github.com/tailscale/tailscale/stargazers) - Built on WireGuard. Easy to use. Doesn't include an HTTPS proxy on the public side, but could be combined with nginx/Caddy/etc. Client [code](https://github.com/tailscale) available with a BSD3 license + separate patents file.
 * [Loophole](https://loophole.cloud/) - Offers end-to-end TLS encryption with the client automatically getting certs from Let's Encrypt. QR codes for URL sharing. Client is open source. Can serve a local directory over WebDAV. MIT License. Written in Go.
 * [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
