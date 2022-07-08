@@ -44,6 +44,7 @@ easy tool to use, and is targeted at non-developers.
 * [Teleport](https://goteleport.com/) [![teleport github stars badge](https://img.shields.io/github/stars/gravitational/teleport?style=flat)](https://github.com/gravitational/teleport) - Comprehesive control plane tool, but also supports [accessing apps](https://goteleport.com/docs/application-access/introduction/) behind NATs. Written in Go.
 * [Nebula](https://github.com/slackhq/nebula) - [![nebula github stars badge](https://img.shields.io/github/stars/slackhq/nebula?style=flat)](https://github.com/zerotier/slackhq/nebula) Peer-to-peer overlay network. Developed and used internally by Slack. Similar to Tailscale but completely open source. Doesn't use WireGuard. Written in Go.
 * [ZeroTier](https://www.zerotier.com/) - [![zerotier github stars badge](https://img.shields.io/github/stars/zerotier/ZeroTierOne?style=flat)](https://github.com/zerotier/ZeroTierOne/stargazers) Layer 2 overlay network. They take decentralization seriously, and like to say "decentralize until it hurts, then centralize until it works." Written in C++.
+* [OmniEdge](https://OmniEdge.io/) - [![omniedge github stars badge](https://img.shields.io/github/stars/omniedgeio/omniedge?style=flat)](https://github.com/omniedgeio/omniedge) A rising No Code P2P layer 2 mesh VPN for Enterprise with Zero Config. They found the team by a single tweet and build all native clients, Swift for macOS and iOS, Kotlin for Android, C++ for Windows, and Golang for Cli. A [customize supernode](https://omniedge.io/docs/article/install/customize-supernode) is also avaiable for self-hosted to improve speed and security. 
 * [sshuttle](https://github.com/sshuttle/sshuttle) [![sshuttle github stars badge](https://img.shields.io/github/stars/sshuttle/sshuttle?style=flat)](https://github.com/sshuttle/sshuttle/stargazers) - Open source project originally from one of the founders of Tailscale. Server doesn't require root; client does. Explicitly designed to avoid TCP-over-TCP issues.
 * [chisel](https://github.com/jpillora/chisel) [![chisel github stars badge](https://img.shields.io/github/stars/jpillora/chisel?style=flat)](https://github.com/jpillora/chisel/stargazers) - SSH under the hood, but still uses a custom client binary. Supports auto certs from LetsEncrypt. Written in Go.
 * [expose](https://github.com/beyondcode/expose) [![expose github stars badge](https://img.shields.io/github/stars/beyondcode/expose?style=flat)](https://github.com/beyondcode/expose/stargazers) - ngrok alternative written in PHP.
@@ -93,6 +94,7 @@ easy tool to use, and is targeted at non-developers.
 * [Great SO answer by AJ ONeal about how these things work](https://stackoverflow.com/a/52614266/943814)
 * [Talk by AJ ONeal about tunneling tech](https://youtu.be/E1Q2MWGCADo)
 * [ngrok alternative: localtunnel + Caddy + Lets Encrypt](https://morph027.gitlab.io/blog/localtunnel-ngrok/)
+* [frp/ngork Vs. OmniEdge](https://omniedge.io/docs/article/compare/frp-ngrok-vs-omniedge)
 
 
 # Discussions
