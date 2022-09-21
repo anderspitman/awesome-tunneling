@@ -69,6 +69,7 @@ easy tool to use, and is targeted at non-developers.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 * [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
 * [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
+* [headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server 
 
 # Commercial/Closed source
 
