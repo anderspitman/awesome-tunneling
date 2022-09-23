@@ -60,6 +60,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 * [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
 * [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
+* [NetBird](https://github.com/netbirdio/netbird) - NetBird is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
 
 
 # Commercial/Closed source
