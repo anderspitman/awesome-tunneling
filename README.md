@@ -35,17 +35,17 @@ proxy solution. It's in beta but currently solves almost everything I want excep
 auto DNS management, and that's planned. Once the server is running this is a very
 easy tool to use, and is targeted at non-developers.
 
+**UPDATE 2022-09-23:**
+
+A lot of new tools have been developed since the list started, and many tools have been submitted for addition to the list. It's great to see so much interest in tunneling. That said, I want to make sure this remains a useful resource for not just listing all the possible options, but helping people pick one that will solve their problem. With that goal in mind, I've moved some of the items to a separate section at the bottom. This is dedicated to more complicated tools like overlay networks which can support tunneling and similar use cases, but aren't focused exclusively on tunneling. Please let me know if you think something is in the wrong section.
+
 
 # Open source (at least with a reasonably permissive license)
 
 * [frp](https://github.com/fatedier/frp) [![frp github stars badge](https://img.shields.io/github/stars/fatedier/frp?style=flat)](https://github.com/fatedier/frp/stargazers) - Comprehensive open alternative to ngrok. Supports UDP, and has a P2P mode. I believe it uses a custom TCP protocol for multiplexing, which can either run over a single TCP connection or a connection pool.
 * [ngrok 1.0](https://github.com/inconshreveable/ngrok) [![ngrok 1.0 github stars badge](https://img.shields.io/github/stars/inconshreveable/ngrok?style=flat)](https://github.com/inconshreveable/ngrok/stargazers) - Original version of ngrok. No longer developed in favor of the commercial 2.0 version.
 * [localtunnel](https://github.com/localtunnel) [![localtunnel github stars badge](https://img.shields.io/github/stars/localtunnel/localtunnel?style=flat)](https://github.com/localtunnel/localtunnel/stargazers) - Written in node. Popular suggestion.
-* [Teleport](https://goteleport.com/) [![teleport github stars badge](https://img.shields.io/github/stars/gravitational/teleport?style=flat)](https://github.com/gravitational/teleport) - Comprehesive control plane tool, but also supports [accessing apps](https://goteleport.com/docs/application-access/introduction/) behind NATs. Written in Go.
-* [Nebula](https://github.com/slackhq/nebula) - [![nebula github stars badge](https://img.shields.io/github/stars/slackhq/nebula?style=flat)](https://github.com/zerotier/slackhq/nebula) Peer-to-peer overlay network. Developed and used internally by Slack. Similar to Tailscale but completely open source. Doesn't use WireGuard. Written in Go.
-* [ZeroTier](https://www.zerotier.com/) - [![zerotier github stars badge](https://img.shields.io/github/stars/zerotier/ZeroTierOne?style=flat)](https://github.com/zerotier/ZeroTierOne/stargazers) Layer 2 overlay network. They take decentralization seriously, and like to say "decentralize until it hurts, then centralize until it works." Written in C++.
 * [sshuttle](https://github.com/sshuttle/sshuttle) [![sshuttle github stars badge](https://img.shields.io/github/stars/sshuttle/sshuttle?style=flat)](https://github.com/sshuttle/sshuttle/stargazers) - Open source project originally from one of the founders of Tailscale. Server doesn't require root; client does. Explicitly designed to avoid TCP-over-TCP issues.
-* [headscale](https://github.com/juanfont/headscale) [![headscale github stars badge](https://img.shields.io/github/stars/juanfont/headscale?style=flat)](https://github.com/juanfont/headscale/stargazers) - Open source implementation of Tailscale control server. Can be used with Tailscale's official open source client. Written in Go.
 * [chisel](https://github.com/jpillora/chisel) [![chisel github stars badge](https://img.shields.io/github/stars/jpillora/chisel?style=flat)](https://github.com/jpillora/chisel/stargazers) - SSH under the hood, but still uses a custom client binary. Supports auto certs from LetsEncrypt. Written in Go.
 * [bore](https://github.com/ekzhang/bore) [![bore github stars badge](https://img.shields.io/github/stars/ekzhang/bore?style=flat)](https://github.com/ekzhang/bore/stargazers) - Minimal tunneling solution. MIT Licensed. Written in Rust.
 * [rathole](https://github.com/rapiz1/rathole) [![rathole github stars badge](https://img.shields.io/github/stars/rapiz1/rathole?style=flat)](https://github.com/rapiz1/rathole/stargazers) - Similar to frp, including the config format, but with improved performance. Low resource consumption. Hot reload. Written in Rust.
@@ -57,7 +57,6 @@ easy tool to use, and is targeted at non-developers.
 * [wstunnel](https://github.com/erebe/wstunnel) [![wstunnel github stars badge](https://img.shields.io/github/stars/erebe/wstunnel?style=flat)](https://github.com/erebe/wstunnel/stargazers) - Proxies over WebSockets. Focus on proxying from behind networks that block certain protocols. Written in Haskell with executables provided.
 * [PageKite](https://pagekite.net/) [![pagekite github stars badge](https://img.shields.io/github/stars/pagekite/PyPagekite?style=flat)](https://github.com/pagekite/PyPagekite/stargazers) - Comprehensive open source solution with hosted options.
 * [boringproxy](https://boringproxy.io/) [![boringproxy github stars badge](https://img.shields.io/github/stars/boringproxy/boringproxy?style=flat)](https://github.com/boringproxy/boringproxy/stargazers) - Designed to be very easy to use. No config files. Clients can be remote-controlled through a simple WebUI and/or REST API on the server.
-* [OpenZiti](https://openziti.github.io) - [![OpenZiti github stars badge](https://img.shields.io/github/stars/openziti/ziti?style=flat)](https://github.com/openziti/ziti/stargazers) - Overlay network. The goal of OpenZiti is to extend zero trust all the way into your application, not just to your network. Apache 2.0 license. Written in Go.
 * [Crowbar](https://github.com/q3k/crowbar) [![crowbar github stars badge](https://img.shields.io/github/stars/q3k/crowbar?style=flat)](https://github.com/q3k/crowbar/stargazers) - Tunnels TCP connections over HTTP GET and POST requests.
 * [jprq](https://github.com/azimjohn/jprq) [![jprq github stars badge](https://img.shields.io/github/stars/azimjohn/jprq?style=flat)](https://github.com/azimjohn/jprq/stargazers) - Proxies over WebSockets. Written in Python.
 * [tunneller](https://github.com/skx/tunneller) [![tunneller github stars badge](https://img.shields.io/github/stars/skx/tunneller?style=flat)](https://github.com/skx/tunneller/stargazers) - Open source. Written in Go.
@@ -73,11 +72,11 @@ easy tool to use, and is targeted at non-developers.
 * [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
 * [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
 
+
 # Commercial/Closed source
 
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
 * [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client [source code](https://github.com/cloudflare/cloudflared) is Apache 2.0 licensed and written in Golang.
-* [Tailscale](https://www.tailscale.com/) [![tailscale github stars badge](https://img.shields.io/github/stars/tailscale/tailscale?style=flat)](https://github.com/tailscale/tailscale/stargazers) - Built on WireGuard. Easy to use. Doesn't include an HTTPS proxy on the public side, but could be combined with nginx/Caddy/etc. Client [code](https://github.com/tailscale) available with a BSD3 license + separate patents file.
 * [Loophole](https://loophole.cloud/) - Offers end-to-end TLS encryption with the client automatically getting certs from Let's Encrypt. QR codes for URL sharing. Client is open source. Can serve a local directory over WebDAV. MIT License. Written in Go.
 * [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
 * [Packetriot](https://packetriot.com) - Comprehensive alternative to ngrok.  HTTP Inspector, Let's Encrypt integration, doesn't require root and Linux repos for apt, yum and dnf.  Enterprise licenses and self-hosted option.
@@ -87,6 +86,17 @@ easy tool to use, and is targeted at non-developers.
 * [KubeSail](https://kubesail.com/) - Company offering tunneling, dynamic DNS, and other services for self-hosting with Kubernetes.
 * [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to work well with Kubernetes.
 * [LocalToNet](https://localtonet.com/) - Supports UDP. Free for a single tunnel. Paid supports custom domains.
+
+
+# Overlay networks and other advanced tools
+
+* [Teleport](https://goteleport.com/) [![teleport github stars badge](https://img.shields.io/github/stars/gravitational/teleport?style=flat)](https://github.com/gravitational/teleport) - Comprehesive control plane tool, but also supports [accessing apps](https://goteleport.com/docs/application-access/introduction/) behind NATs. Written in Go.
+* [Nebula](https://github.com/slackhq/nebula) - [![nebula github stars badge](https://img.shields.io/github/stars/slackhq/nebula?style=flat)](https://github.com/zerotier/slackhq/nebula) Peer-to-peer overlay network. Developed and used internally by Slack. Similar to Tailscale but completely open source. Doesn't use WireGuard. Written in Go.
+* [ZeroTier](https://www.zerotier.com/) - [![zerotier github stars badge](https://img.shields.io/github/stars/zerotier/ZeroTierOne?style=flat)](https://github.com/zerotier/ZeroTierOne/stargazers) Layer 2 overlay network. They take decentralization seriously, and like to say "decentralize until it hurts, then centralize until it works." Written in C++.
+* [OpenZiti](https://openziti.github.io) - [![OpenZiti github stars badge](https://img.shields.io/github/stars/openziti/ziti?style=flat)](https://github.com/openziti/ziti/stargazers) - Overlay network. The goal of OpenZiti is to extend zero trust all the way into your application, not just to your network. Apache 2.0 license. Written in Go.
+* [Tailscale](https://www.tailscale.com/) [![tailscale github stars badge](https://img.shields.io/github/stars/tailscale/tailscale?style=flat)](https://github.com/tailscale/tailscale/stargazers) - Built on WireGuard. Easy to use. Doesn't include an HTTPS proxy on the public side, but could be combined with nginx/Caddy/etc. Control server is closed source. Client [code](https://github.com/tailscale) available with a BSD3 license + separate patents file.
+* [headscale](https://github.com/juanfont/headscale) [![headscale github stars badge](https://img.shields.io/github/stars/juanfont/headscale?style=flat)](https://github.com/juanfont/headscale/stargazers) - Open source implementation of Tailscale control server. Can be used with Tailscale's official open source client. Written in Go.
+
 
 # Reference
 
