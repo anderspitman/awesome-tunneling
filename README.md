@@ -59,8 +59,6 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [tnnlink](https://github.com/LiljebergXYZ/tnnlink) [![tnnlink github stars badge](https://img.shields.io/github/stars/LiljebergXYZ/tnnlink?style=flat)](https://github.com/LiljebergXYZ/tnnlink/stargazers) - SSH-based. Golang. Not maintained.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 * [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
-* [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
-* [NetBird](https://github.com/netbirdio/netbird) - NetBird is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
 
 
 # Commercial/Closed source
@@ -87,6 +85,8 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [Tailscale](https://www.tailscale.com/) [![tailscale github stars badge](https://img.shields.io/github/stars/tailscale/tailscale?style=flat)](https://github.com/tailscale/tailscale/stargazers) - Built on WireGuard. Easy to use. Doesn't include an HTTPS proxy on the public side, but could be combined with nginx/Caddy/etc. Control server is closed source. Client [code](https://github.com/tailscale) available with a BSD3 license + separate patents file.
 * [headscale](https://github.com/juanfont/headscale) [![headscale github stars badge](https://img.shields.io/github/stars/juanfont/headscale?style=flat)](https://github.com/juanfont/headscale/stargazers) - Open source implementation of Tailscale control server. Can be used with Tailscale's official open source client. Written in Go.
 * [Pritunl](https://pritunl.com/) [![pritunl github stars badge](https://img.shields.io/github/stars/pritunl/pritunl?style=flat)](https://github.com/pritunl/pritunl/stargazers) - Seems quite comprehensive and complicated. OpenVPN, WireGuard, and IPSec support.
+* [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
+* [NetBird](https://github.com/netbirdio/netbird) [![netbird github stars badge](https://img.shields.io/github/stars/netbirdio/netbird?style=flat)](https://github.com/netbirdio/netbird/stargazers) - NetBird is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
 
 
 # Reference
