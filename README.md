@@ -4,7 +4,7 @@ like exposing a local webserver via a public domain name, with automatic HTTPS,
 even if behind a NAT or other restricted network.
 
 **NOTE:** We're building a community around self-hosting, data ownership, and decentralization in general.
-Join us over at [IndieBits.io](https://indiebits.io).
+Join us over at [IndieBits.io](https://forum.indiebits.io).
 
 # The dream
 
