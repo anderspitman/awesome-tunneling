@@ -63,6 +63,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [holepunch](https://github.com/CypherpunkArmory/holepunch) [![holepunch github stars badge](https://img.shields.io/github/stars/CypherpunkArmory/holepunch?style=flat)](https://github.com/CypherpunkArmory/holepunch/stargazers) - Has nice hosted solution. Uses SSH for muxing.
 * [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
 * [tnnlink](https://github.com/LiljebergXYZ/tnnlink) [![tnnlink github stars badge](https://img.shields.io/github/stars/LiljebergXYZ/tnnlink?style=flat)](https://github.com/LiljebergXYZ/tnnlink/stargazers) - SSH-based. Golang. Not maintained.
+* [ghostunnel](https://github.com/ghostunnel/ghostunnel) [![ghostunnel github stars badge](https://img.shields.io/github/stars/ghostunnel/ghostunnel?style=flat)](https://github.com/ghostunnel/ghostunnel/stargazers) - Ghostunnel is a simple TLS proxy with mutual authentication support for securing non-TLS backend applications.
 
 
 # Commercial/Closed source
