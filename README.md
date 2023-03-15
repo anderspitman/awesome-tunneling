@@ -95,6 +95,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [NetBird](https://github.com/netbirdio/netbird) [![netbird github stars badge](https://img.shields.io/github/stars/netbirdio/netbird?style=flat)](https://github.com/netbirdio/netbird/stargazers) - NetBird is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
 * [OpenZiti](https://openziti.github.io) - [![OpenZiti github stars badge](https://img.shields.io/github/stars/openziti/ziti?style=flat)](https://github.com/openziti/ziti/stargazers) - Overlay network. The goal of OpenZiti is to extend zero trust all the way into your application, not just to your network. Apache 2.0 license. Written in Go.
 * [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) [![ngrok operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/ngrok-operator?style=flat)](https://github.com/zufardhiyaulhaq/ngrok-operator/stargazers) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
+* [Firezone](https://www.firezone.dev/) [![firezone github stars badge](https://img.shields.io/github/stars/firezone/firezone?style=flat)](https://github.com/firezone/firezone) - Layer 3/4 overlay network. Runs on kernel WireGuard® and supports SSO using generic OIDC/SAML connectors. Distributed under apache 2.0 license and written in Elixir/Rust.
 
 
 # Reference
