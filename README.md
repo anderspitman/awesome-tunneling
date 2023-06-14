@@ -34,6 +34,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want. If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs. For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution. It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
 
 # Open source (at least with a reasonably permissive license)
+* [TunnelAgent](https://tunnelagent.com/) - Tunnel agent allows you to expose websites or webapps running on your localhost to the outer world. This is done by creating a public url that will forward all external request to your local app running on a local port.
 * [Tunnelmole](https://github.com/robbie-cahill/tunnelmole-client/) - Open source and optionally self hostable. The client and server are both written in TypeScript.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 * [tunnel.pyjam.as](https://tunnel.pyjam.as/) - No custom client; uses WireGuard directly instead. Written in Python. [source code](https://gitlab.com/pyjam.as/tunnel)
