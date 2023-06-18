@@ -6,7 +6,7 @@ even if behind a NAT or other restricted network.
 **NOTE:** We're building a community around self-hosting, data ownership, and decentralization in general.
 Join us over at [IndieBits.io](https://forum.indiebits.io).
 
-# The dream
+## The dream
 
 I started this list because I'm looking for a simple tool/service that does the
 following:
@@ -28,12 +28,12 @@ the domain registration and DNS management.
 
 A lot of new tools have been developed since the list started, and many tools have been submitted for addition to the list. It's great to see so much interest in tunneling. That said, I want to make sure this remains a useful resource for not just listing all the possible options, but helping people pick one that will solve their problem. With that goal in mind, I've moved some of the items to a separate section at the bottom. This is dedicated to more complicated tools like overlay networks which can support tunneling and similar use cases, but aren't focused exclusively on tunneling. Please let me know if you think something is in the wrong section.
 
-# Recommendations
+## Recommendations
 
 * For most people, I currently recommend [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for CloudFlare's other products which means they can offer it for free. Note that it's technically against their ToS to host anything other than basic HTML pages on the free plan, including photos, audio, and video. In practice I'm not aware of many instances of this being enforced.
 * If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want. If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs. For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution. It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
 
-# Open source (at least with a reasonably permissive license)
+## Open source (at least with a reasonably permissive license)
 * [Tunnelmole](https://github.com/robbie-cahill/tunnelmole-client/) - Open source and optionally self hostable. The client and server are both written in TypeScript.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 * [tunnel.pyjam.as](https://tunnel.pyjam.as/) - No custom client; uses WireGuard directly instead. Written in Python. [source code](https://gitlab.com/pyjam.as/tunnel)
@@ -88,7 +88,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [LocalXpose](https://localxpose.io) - Looks like a solid paid option, with a limited free tier.
 
 
-# Overlay networks and other advanced tools
+## Overlay networks and other advanced tools
 
 * [Teleport](https://goteleport.com/) [![teleport github stars badge](https://img.shields.io/github/stars/gravitational/teleport?style=flat)](https://github.com/gravitational/teleport) - Comprehensive control plane tool, but also supports [accessing apps](https://goteleport.com/docs/application-access/introduction/) behind NATs. Written in Go.
 * [Nebula](https://github.com/slackhq/nebula) - [![nebula github stars badge](https://img.shields.io/github/stars/slackhq/nebula?style=flat)](https://github.com/zerotier/slackhq/nebula) Peer-to-peer overlay network. Developed and used internally by Slack. Similar to Tailscale but completely open source. Doesn't use WireGuard. Written in Go.
@@ -105,7 +105,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) [![ngrok operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/ngrok-operator?style=flat)](https://github.com/zufardhiyaulhaq/ngrok-operator/stargazers) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
 
 
-# Reference
+## Reference
 
 * [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
 * [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
@@ -115,6 +115,6 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [ngrok alternative: localtunnel + Caddy + Lets Encrypt](https://morph027.gitlab.io/blog/localtunnel-ngrok/)
 
 
-# Discussions
+## Discussions
 
 * [HN comment about needing Namecheap + CloudFlare + ngrok](https://news.ycombinator.com/item?id=24475946).
