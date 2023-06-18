@@ -30,8 +30,17 @@ A lot of new tools have been developed since the list started, and many tools ha
 
 ## Recommendations
 
-* For most people, I currently recommend [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for CloudFlare's other products which means they can offer it for free. Note that it's technically against their ToS to host anything other than basic HTML pages on the free plan, including photos, audio, and video. In practice I'm not aware of many instances of this being enforced.
-* If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want. If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs. For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution. It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
+For most people, I currently recommend [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/).
+Although it's closed source, this is the production-quality service that gets the closest to achieving the dream.
+It's also a loss-leader for CloudFlare's other products which means they can offer it for free.
+Note that it's technically against their ToS to host anything other than basic HTML pages on the free plan, including photos, audio, and video.
+In practice I'm not aware of many instances of this being enforced.
+
+If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want.
+If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs.
+
+For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution.
+It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
 
 ## Open source (at least with a reasonably permissive license)
 * [Tunnelmole](https://github.com/robbie-cahill/tunnelmole-client/) - Open source and optionally self hostable. The client and server are both written in TypeScript.
