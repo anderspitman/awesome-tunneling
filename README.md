@@ -42,11 +42,48 @@ If you're a developer, I'd recommend starting with my own [SirTunnel](https://gi
 For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution.
 It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
 
+## SSH based
+The ssh command allows to create tunnels and this is simplest and popular way because not need for a dedicated client.
+As a downside a TLS traffic will be additionally encrypted by SSH. But it's usually not a big slowdown.
+In order to keep tunnel working after disconnect you need to configure additional service like:
+* [autossh](https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/)
+* [systemd](https://docs.srv.us/systemd.html)
+* For MacOS [launchd](https://docs.srv.us/launchd.html)
+* For OpenWrt use [sshtunnel](https://openwrt.org/docs/guide-user/services/ssh/sshtunnel)
+
+### SSH Services
+* [burrow.io](https://burrow.io/) - SSH, HTTP, basic auth, custom domains. No free plan.
+* [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
+* [Pinggy](https://pinggy.io/) - SSH based single command HTTPS / TCP / TLS tunnels, no downloads required. Rich terminal interface and a web debugger. Free tier - 60 min timeout. Paid tier allows custom domains with built-in Let's Encrypt certificates.
+* [RaspberryAnywhere.com](https://www.raspberryanywhere.com/) - an SSH tunnel. No free plan.
+* [remotemoe](https://github.com/fasmide/remotemoe) - a free SSH, HTTP and HTTPS tunnel. Run `ssh remote.moe firsttime` and it will display usage information. Its server is open source, see bellow.
+* [srv.us](https://docs.srv.us/) - a free HTTP tunnel. Supports custom domain same as on GitHub. Its server is open source, see bellow.
+* [SSH-J.com](https://SSH-J.com/) - Public SSH Jump & Port Forwarding server. Free to use, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.  Its server is open source, see bellow.
+* [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple python script.
+
+
+### SSH Servers
+
+* [dropbear-sshj](https://bitbucket.org/ValdikSS/dropbear-sshj/) -server used by the SSH-J.com. It's just a patched version of Dropbear SSH daemon. `C`
+* [pgrok/pgrok](https://github.com/pgrok/pgrok) [![pgrok github stars badge](https://img.shields.io/github/stars/pgrok/pgrok?style=flat)](https://github.com/pgrok/pgrok/stargazers) - A multi-tenant HTTP reverse tunnel solution through SSH remote port forwarding.
+* [remotemoe](https://github.com/fasmide/remotemoe) [![remotemoe github stars badge](https://img.shields.io/github/stars/fasmide/remotemoe?style=flat)](https://github.com/fasmide/remotemoe/stargazers) - SSH-based, with custom golang server. Does some cool unique things. Instead of just plain tunnels, it drops you into a basic CLI UI that offers several useful commands interactively, such as adding a custom hostname. Also allows end-to-end encryption for both HTTPS and upstream SSH. Doesn't appear to offer non-e2e HTTPS, ie no auto Let's Encrypt support.
+* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
+* [sish](https://github.com/antoniomika/sish) [![sish github stars badge](https://img.shields.io/github/stars/antoniomika/sish?style=flat)](https://github.com/antoniomika/sish/stargazers) - Open source ngrok/serveo alternative. SSH-based but uses a custom server written in Go. Supports WebSocket tunneling.
+* [srv.us](https://github.com/pcarrier/srv.us/tree/main/backend) - the srv.us backend. Golang.
+* [tnnlink](https://github.com/LiljebergXYZ/tnnlink) [![tnnlink github stars badge](https://img.shields.io/github/stars/LiljebergXYZ/tnnlink?style=flat)](https://github.com/LiljebergXYZ/tnnlink/stargazers) - SSH-based. Golang. Not maintained.
+
+### Articles
+* [man ssh](https://linux.die.net/man/1/ssh)
+* [A visual guide to SSH tunnels](https://robotmoon.com/ssh-tunnels/) [ru:Наглядное руководство по SSH-туннелям](https://habr.com/ru/companies/flant/articles/691388/)
+* [OpenSSH/Cookbook/Tunnels](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Tunnels)
+* [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
+* [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
+
+
 ## Open source (at least with a reasonably permissive license)
 * [Tunnelmole](https://github.com/robbie-cahill/tunnelmole-client/) - Open source and optionally self hostable. The client and server are both written in TypeScript.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js).
 * [tunnel.pyjam.as](https://tunnel.pyjam.as/) - No custom client; uses WireGuard directly instead. Written in Python. [source code](https://gitlab.com/pyjam.as/tunnel)
-* [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
 * [frp](https://github.com/fatedier/frp) [![frp github stars badge](https://img.shields.io/github/stars/fatedier/frp?style=flat)](https://github.com/fatedier/frp/stargazers) - Comprehensive open alternative to ngrok. Supports UDP, and has a P2P mode. Supports multiplexing over TCP (single connection or pool), QUIC, and KCP.
 * [ngrok 1.0](https://github.com/inconshreveable/ngrok) [![ngrok 1.0 github stars badge](https://img.shields.io/github/stars/inconshreveable/ngrok?style=flat)](https://github.com/inconshreveable/ngrok/stargazers) - Original version of ngrok. No longer developed in favor of the commercial 2.0 version.
 * [localtunnel](https://github.com/localtunnel) [![localtunnel github stars badge](https://img.shields.io/github/stars/localtunnel/localtunnel?style=flat)](https://github.com/localtunnel/localtunnel/stargazers) - Written in node. Popular suggestion.
@@ -55,9 +92,7 @@ It's in beta but currently solves almost everything I want. Once the server is r
 * [bore](https://github.com/ekzhang/bore) [![bore github stars badge](https://img.shields.io/github/stars/ekzhang/bore?style=flat)](https://github.com/ekzhang/bore/stargazers) - Minimal tunneling solution. MIT Licensed. Written in Rust.
 * [rathole](https://github.com/rapiz1/rathole) [![rathole github stars badge](https://img.shields.io/github/stars/rapiz1/rathole?style=flat)](https://github.com/rapiz1/rathole/stargazers) - Similar to frp, including the config format, but with improved performance. Low resource consumption. Hot reload. Written in Rust.
 * [expose](https://github.com/beyondcode/expose) [![expose github stars badge](https://img.shields.io/github/stars/beyondcode/expose?style=flat)](https://github.com/beyondcode/expose/stargazers) - ngrok alternative written in PHP.
-* [sish](https://github.com/antoniomika/sish) [![sish github stars badge](https://img.shields.io/github/stars/antoniomika/sish?style=flat)](https://github.com/antoniomika/sish/stargazers) - Open source ngrok/serveo alternative. SSH-based but uses a custom server written in Go. Supports WebSocket tunneling.
 * [go-http-tunnel](https://github.com/mmatczuk/go-http-tunnel) [![go-http-tunnel github stars badge](https://img.shields.io/github/stars/mmatczuk/go-http-tunnel?style=flat)](https://github.com/mmatczuk/go-http-tunnel/stargazers) - Uses a single HTTP/2 connection for muxing. Need to manually generate certs for server and clients.
-* [pgrok/pgrok](https://github.com/pgrok/pgrok) [![pgrok github stars badge](https://img.shields.io/github/stars/pgrok/pgrok?style=flat)](https://github.com/pgrok/pgrok/stargazers) - A multi-tenant HTTP reverse tunnel solution through SSH remote port forwarding.
 * [tunnelto](https://tunnelto.dev/) [![tunnelto github stars badge](https://img.shields.io/github/stars/agrinman/tunnelto?style=flat)](https://github.com/agrinman/tunnelto/stargazers) - Open source (MIT). Written in Rust.
 * [wstunnel](https://github.com/erebe/wstunnel) [![wstunnel github stars badge](https://img.shields.io/github/stars/erebe/wstunnel?style=flat)](https://github.com/erebe/wstunnel/stargazers) - Proxies over WebSockets. Focus on proxying from behind networks that block certain protocols. Written in Haskell with executables provided.
 * [boringproxy](https://boringproxy.io/) [![boringproxy github stars badge](https://img.shields.io/github/stars/boringproxy/boringproxy?style=flat)](https://github.com/boringproxy/boringproxy/stargazers) - Designed to be very easy to use. No config files. Clients can be remote-controlled through a simple WebUI and/or REST API on the server.
@@ -72,10 +107,7 @@ It's in beta but currently solves almost everything I want. Once the server is r
 * [onionpipe](https://github.com/cmars/onionpipe) [![onionpipe github stars badge](https://img.shields.io/github/stars/cmars/onionpipe?style=flat)](https://github.com/cmars/onionpipe/stargazers) - Onion addresses for anything. `onionpipe` forwards ports on the local host to remote Onion addresses as Tor hidden services and vice-versa. Written in Go.
 * [docker-tunnel](https://github.com/vitobotta/docker-tunnel) [![docker-tunnel github stars badge](https://img.shields.io/github/stars/vitobotta/docker-tunnel?style=flat)](https://github.com/vitobotta/docker-tunnel/stargazers) - Simple Docker-based nginx+SSH solution.
 * [hypertunnel](https://github.com/berstend/hypertunnel) [![frp github stars badge](https://img.shields.io/github/stars/berstend/hypertunnel?style=flat)](https://github.com//berstend/hypertunnel/stargazers) - Public server appears to be down. MIT Licensed. Written in JavaScript.
-* [remotemoe](https://github.com/fasmide/remotemoe) [![remotemoe github stars badge](https://img.shields.io/github/stars/fasmide/remotemoe?style=flat)](https://github.com/fasmide/remotemoe/stargazers) - SSH-based, with custom golang server. Does some cool unique things. Instead of just plain tunnels, it drops you into a basic CLI UI that offers several useful commands interactively, such as adding a custom hostname. Also allows end-to-end encryption for both HTTPS and upstream SSH. Doesn't appear to offer non-e2e HTTPS, ie no auto Let's Encrypt support.
 * [holepunch](https://github.com/CypherpunkArmory/holepunch) [![holepunch github stars badge](https://img.shields.io/github/stars/CypherpunkArmory/holepunch?style=flat)](https://github.com/CypherpunkArmory/holepunch/stargazers) - Has nice hosted solution. Uses SSH for muxing.
-* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
-* [tnnlink](https://github.com/LiljebergXYZ/tnnlink) [![tnnlink github stars badge](https://img.shields.io/github/stars/LiljebergXYZ/tnnlink?style=flat)](https://github.com/LiljebergXYZ/tnnlink/stargazers) - SSH-based. Golang. Not maintained.
 * [ngtor](https://github.com/theborakompanioni/ngtor) [![ngtor github stars badge](https://img.shields.io/github/stars/theborakompanioni/ngtor?style=flat)](https://github.com/theborakompanioni/ngtor/stargazers) - Easily expose local services via Tor. Written in Java.
 
 
@@ -84,13 +116,10 @@ It's in beta but currently solves almost everything I want. Once the server is r
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
 * [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client [source code](https://github.com/cloudflare/cloudflared) is Apache 2.0 licensed and written in Golang.
 * [Beeceptor](https://beeceptor.com/) - Goes beyond tunneling. Rest API mocking and intercepting tool. You can view the live requests and send mocked response. Written in JavaScript.
-* [Pinggy](https://pinggy.io/) - SSH based single command HTTPS / TCP / TLS tunnels, no downloads required. Rich terminal interface and a web debugger. Free tier - 60 min timeout. Paid tier allows custom domains with built-in Let's Encrypt certificates.
 * [Loophole](https://loophole.cloud/) - Offers end-to-end TLS encryption with the client automatically getting certs from Let's Encrypt. QR codes for URL sharing. Client is open source. Can serve a local directory over WebDAV. MIT License. Written in Go.
-* [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
 * [Packetriot](https://packetriot.com) - Comprehensive alternative to ngrok.  HTTP Inspector, Let's Encrypt integration, doesn't require root and Linux repos for apt, yum and dnf.  Enterprise licenses and self-hosted option.
 * [Hoppy](https://hoppy.network/) - WireGuard-based. Provides static IPv4 and IPv6 addresses for your machines, which is a simple and useful level of abstraction. Targeted towards self-hosters and people behind NATs.
 * [gw.run](https://gw.run/) - Specifically focusing on securely exposing internal web apps to a group of people; not for publicly facing apps. Share access via email address then allow users to log in with common login providers like Google.
-* [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple python script.
 * [KubeSail](https://kubesail.com/) - Company offering tunneling, dynamic DNS, and other services for self-hosting with Kubernetes.
 * [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to work well with Kubernetes.
 * [LocalToNet](https://localtonet.com/) - Supports UDP. Free for a single tunnel. Paid supports custom domains.
@@ -116,8 +145,6 @@ It's in beta but currently solves almost everything I want. Once the server is r
 
 ## Reference
 
-* [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
-* [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
 * [How I built Ngrok Alternative (jprq)](https://dev.to/azimjohn/how-i-built-ngrok-alternative-3n0g)
 * [Great SO answer by AJ ONeal about how these things work](https://stackoverflow.com/a/52614266/943814)
 * [Talk by AJ ONeal about tunneling tech](https://youtu.be/E1Q2MWGCADo)
