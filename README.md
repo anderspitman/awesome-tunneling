@@ -71,7 +71,7 @@ In order to keep tunnel working after disconnect you need to configure additiona
 * [chisel](https://github.com/jpillora/chisel) [![chisel github stars badge](https://img.shields.io/github/stars/jpillora/chisel?style=flat)](https://github.com/jpillora/chisel/stargazers) - SSH under the hood, but still uses a custom client binary. Supports auto certs from LetsEncrypt. Written in Go.
 * [sish](https://github.com/antoniomika/sish) [![sish github stars badge](https://img.shields.io/github/stars/antoniomika/sish?style=flat)](https://github.com/antoniomika/sish/stargazers) - Open source ngrok/serveo alternative. SSH-based but uses a custom server written in Go. Supports WebSocket tunneling.
 * [SirTunnel](https://github.com/anderspitman/SirTunnel) [![SirTunnel github stars badge](https://img.shields.io/github/stars/anderspitman/SirTunnel?style=flat)](https://github.com/anderspitman/SirTunnel/stargazers) - Minimal, self-hosted, 0-config alternative to ngrok. Similar to sish but leverages Caddy+OpenSSH rather than custom server code.
-* [srv.us](https://github.com/pcarrier/srv.us/tree/main/backend) - the srv.us backend. Golang.
+* [srv.us](https://github.com/pcarrier/srv.us) [![SirTunnel github stars badge](https://img.shields.io/github/stars/pcarrier/srv.us?style=flat)](https://github.com/pcarrier/srv.us/stargazers) - the srv.us backend. Golang.
 * [tnnlink](https://github.com/LiljebergXYZ/tnnlink) [![tnnlink github stars badge](https://img.shields.io/github/stars/LiljebergXYZ/tnnlink?style=flat)](https://github.com/LiljebergXYZ/tnnlink/stargazers) - SSH-based. Golang. Not maintained.
 
 ### Articles
@@ -86,6 +86,7 @@ Tor provides a [Hidden Services](https://community.torproject.org/onion-services
 But they are slow, their domains are not human-readable and you need a Tor Browser or Tor SOCKS5 proxy to access them.
 
 * [Tor](https://www.torproject.org/)
+* [onionpipe](https://github.com/cmars/onionpipe) [![onionpipe github stars badge](https://img.shields.io/github/stars/cmars/onionpipe?style=flat)](https://github.com/cmars/onionpipe/stargazers) - Onion addresses for anything. `onionpipe` forwards ports on the local host to remote Onion addresses as Tor hidden services and vice-versa. Written in Go.
 * [OnionShare](https://onionshare.org/) - a user-friendly program to create a hidden service.
 * [ngtor](https://github.com/theborakompanioni/ngtor) [![ngtor github stars badge](https://img.shields.io/github/stars/theborakompanioni/ngtor?style=flat)](https://github.com/theborakompanioni/ngtor/stargazers) - Easily expose local services via Tor. Written in Java.
 
@@ -112,7 +113,6 @@ But they are slow, their domains are not human-readable and you need a Tor Brows
 * [tunneller](https://github.com/skx/tunneller) [![tunneller github stars badge](https://img.shields.io/github/stars/skx/tunneller?style=flat)](https://github.com/skx/tunneller/stargazers) - Open source. Written in Go.
 * [tunnel](https://github.com/koding/tunnel) [![tunnel github stars badge](https://img.shields.io/github/stars/koding/tunnel?style=flat)](https://github.com/koding/tunnel/stargazers) - This one is a Golang library, not a program you can just run. However, it looks easy to use for creating custom solutions. Uses a single TCP socket, and [yamux](https://github.com/hashicorp/yamux) for multiplexing.
 * [jerson/pgrok](https://www.proxy.jetzt/) [![pgrok github stars badge](https://img.shields.io/github/stars/jerson/pgrok?style=flat)](https://github.com/jerson/pgrok/stargazers) - Fork of ngrok 1.0, with more recent commits. Archived.
-* [onionpipe](https://github.com/cmars/onionpipe) [![onionpipe github stars badge](https://img.shields.io/github/stars/cmars/onionpipe?style=flat)](https://github.com/cmars/onionpipe/stargazers) - Onion addresses for anything. `onionpipe` forwards ports on the local host to remote Onion addresses as Tor hidden services and vice-versa. Written in Go.
 * [docker-tunnel](https://github.com/vitobotta/docker-tunnel) [![docker-tunnel github stars badge](https://img.shields.io/github/stars/vitobotta/docker-tunnel?style=flat)](https://github.com/vitobotta/docker-tunnel/stargazers) - Simple Docker-based nginx+SSH solution.
 * [hypertunnel](https://github.com/berstend/hypertunnel) [![frp github stars badge](https://img.shields.io/github/stars/berstend/hypertunnel?style=flat)](https://github.com//berstend/hypertunnel/stargazers) - Public server appears to be down. MIT Licensed. Written in JavaScript.
 * [holepunch](https://github.com/CypherpunkArmory/holepunch) [![holepunch github stars badge](https://img.shields.io/github/stars/CypherpunkArmory/holepunch?style=flat)](https://github.com/CypherpunkArmory/holepunch/stargazers) - Has nice hosted solution. Uses SSH for muxing.
