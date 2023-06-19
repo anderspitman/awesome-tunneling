@@ -79,6 +79,14 @@ In order to keep tunnel working after disconnect you need to configure additiona
 * [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
 * [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
 
+## Tor
+Tor provides a [Hidden Services](https://community.torproject.org/onion-services/overview/) which are a secret tunnels and free to use.
+But they are slow, their domains are not human-readable and you need a Tor Browser or Tor SOCKS5 proxy to access them.
+
+* [Tor](https://www.torproject.org/)
+* [OnionShare](https://onionshare.org/) - a user-friendly program to create a hidden service.
+* [ngtor](https://github.com/theborakompanioni/ngtor) [![ngtor github stars badge](https://img.shields.io/github/stars/theborakompanioni/ngtor?style=flat)](https://github.com/theborakompanioni/ngtor/stargazers) - Easily expose local services via Tor. Written in Java.
+
 
 ## Open source (at least with a reasonably permissive license)
 * [Tunnelmole](https://github.com/robbie-cahill/tunnelmole-client/) - Open source and optionally self hostable. The client and server are both written in TypeScript.
@@ -108,7 +116,6 @@ In order to keep tunnel working after disconnect you need to configure additiona
 * [docker-tunnel](https://github.com/vitobotta/docker-tunnel) [![docker-tunnel github stars badge](https://img.shields.io/github/stars/vitobotta/docker-tunnel?style=flat)](https://github.com/vitobotta/docker-tunnel/stargazers) - Simple Docker-based nginx+SSH solution.
 * [hypertunnel](https://github.com/berstend/hypertunnel) [![frp github stars badge](https://img.shields.io/github/stars/berstend/hypertunnel?style=flat)](https://github.com//berstend/hypertunnel/stargazers) - Public server appears to be down. MIT Licensed. Written in JavaScript.
 * [holepunch](https://github.com/CypherpunkArmory/holepunch) [![holepunch github stars badge](https://img.shields.io/github/stars/CypherpunkArmory/holepunch?style=flat)](https://github.com/CypherpunkArmory/holepunch/stargazers) - Has nice hosted solution. Uses SSH for muxing.
-* [ngtor](https://github.com/theborakompanioni/ngtor) [![ngtor github stars badge](https://img.shields.io/github/stars/theborakompanioni/ngtor?style=flat)](https://github.com/theborakompanioni/ngtor/stargazers) - Easily expose local services via Tor. Written in Java.
 
 
 # Commercial/Closed source
