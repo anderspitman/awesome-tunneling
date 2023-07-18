@@ -69,6 +69,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
 * [tnnlink](https://github.com/LiljebergXYZ/tnnlink) [![tnnlink github stars badge](https://img.shields.io/github/stars/LiljebergXYZ/tnnlink?style=flat)](https://github.com/LiljebergXYZ/tnnlink/stargazers) - SSH-based. Golang. Not maintained.
 * [ngtor](https://github.com/theborakompanioni/ngtor) [![ngtor github stars badge](https://img.shields.io/github/stars/theborakompanioni/ngtor?style=flat)](https://github.com/theborakompanioni/ngtor/stargazers) - Easily expose local services via Tor. Written in Java.
+* [docker-wireguard-tunnel](https://github.com/DigitallyRefined/docker-wireguard-tunnel) [![ngtor github stars badge](https://img.shields.io/github/stars/DigitallyRefined/docker-wireguard-tunnel?style=flat)](https://github.com/DigitallyRefined/docker-wireguard-tunnel/stargazers) - Connect two or more Docker servers together sharing container ports between them via a WireGuard tunnel.
 
 
 # Commercial/Closed source
