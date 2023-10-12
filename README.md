@@ -85,7 +85,6 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [gw.run](https://gw.run/) - Specifically focusing on securely exposing internal web apps to a group of people; not for publicly facing apps. Share access via email address then allow users to log in with common login providers like Google.
 * [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple python script.
 * [KubeSail](https://kubesail.com/) - Company offering tunneling, dynamic DNS, and other services for self-hosting with Kubernetes.
-* [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to work well with Kubernetes.
 * [LocalToNet](https://localtonet.com/) - Supports UDP. Free for a single tunnel. Paid supports custom domains.
 * [LocalXpose](https://localxpose.io) - Looks like a solid paid option, with a limited free tier.
 * [Tabserve.dev](https://tabserve.dev) - Web UI that runs entirely in the browser and uses a Cloudflare Worker for https.
@@ -105,9 +104,13 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [Pritunl](https://pritunl.com/) [![pritunl github stars badge](https://img.shields.io/github/stars/pritunl/pritunl?style=flat)](https://github.com/pritunl/pritunl/stargazers) - Seems quite comprehensive and complicated. OpenVPN, WireGuard, and IPSec support.
 * [Tinc](https://github.com/gsliepen/tinc) [![tinc github stars badge](https://img.shields.io/github/stars/gsliepen/tinc?style=flat)](https://github.com/gsliepen/tinc/stargazers) - Tinc is a peer-to-peer VPN daemon that supports VPNs with an arbitrary number of nodes. Instead of configuring tunnels, you give tinc the location and public key of a few nodes in the VPN. After making the initial connections to those nodes, tinc will learn about all other nodes on the VPN, and will make connections automatically. When direct connections are not possible, data will be forwarded by intermediate nodes. Written in C.
 * [OpenZiti](https://openziti.github.io) - [![OpenZiti github stars badge](https://img.shields.io/github/stars/openziti/ziti?style=flat)](https://github.com/openziti/ziti/stargazers) - Overlay network. The goal of OpenZiti is to extend zero trust all the way into your application, not just to your network. Apache 2.0 license. Written in Go.
-* [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) [![ngrok operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/ngrok-operator?style=flat)](https://github.com/zufardhiyaulhaq/ngrok-operator/stargazers) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
-* [chisel-operator](https://github.com/FyraLabs/chisel-operator/) [![chisel operator github stars badge](https://img.shields.io/github/stars/FyraLabs/chisel-operator?style=flat)](https://github.com/FyraLabs/chisel-operator/stargazers) - Kubernetes integration for Chisel. Similar functionality to inlets. MIT License. Written in Rust.
 
+# Kubernetes Operators
+
+* [frp-operator](https://github.com/zufardhiyaulhaq/frp-operator) [![frp-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/frp-operator?style=flat)](https://github.com/zufardhiyaulhaq/frp-operator/stargazers) - Kubernetes integration for [FRP](https://github.com/fatedier/frp). MIT License. Written in Go.
+* [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) [![ngrok-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/ngrok-operator?style=flat)](https://github.com/zufardhiyaulhaq/ngrok-operator/stargazers) - Kubernetes integration for Ngrok. MIT License. Written in Go.
+* [chisel-operator](https://github.com/FyraLabs/chisel-operator/) [![chisel-operator github stars badge](https://img.shields.io/github/stars/FyraLabs/chisel-operator?style=flat)](https://github.com/FyraLabs/chisel-operator/stargazers) - Kubernetes integration for Chisel. MIT License. Written in Rust.
+* [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now proprietary and focused on a polished commercial offering.
 
 # Reference
 
