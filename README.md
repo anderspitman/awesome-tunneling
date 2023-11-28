@@ -80,6 +80,7 @@ In order to keep tunnel working after disconnect you need to configure additiona
 * [OpenSSH/Cookbook/Tunnels](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Tunnels)
 * [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
 * [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
+* [SSH Local, Remote and Dynamic Port Forwarding - Explain it like I am five!](https://erev0s.com/blog/ssh-local-remote-and-dynamic-port-forwarding-explain-it-i-am-five/)
 
 ## Tor
 Tor provides a [Hidden Services](https://community.torproject.org/onion-services/overview/) which are a secret tunnels and free to use.
