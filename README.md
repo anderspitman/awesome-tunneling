@@ -93,6 +93,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [LocalXpose](https://localxpose.io) - Looks like a solid paid option, with a limited free tier.
 * [Tabserve.dev](https://tabserve.dev) - Web UI that runs entirely in the browser and uses a Cloudflare Worker for https.
 * [Serveo](https://serveo.net) - SSH-based, signup optional, offering HTTP(S) and TCP tunneling and SSH jump host forwarding capabilities.
+* [Homeway](https://homeway.io) - Secure and private remote access for Home Assistant. The free tier has a monthly data limit cap, but unlimited data is only $2.49/month.
 
 # Overlay networks and other advanced tools
 
