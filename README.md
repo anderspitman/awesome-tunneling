@@ -50,6 +50,8 @@ In order to keep tunnel working after disconnect you need to configure additiona
 * [systemd](https://docs.srv.us/systemd.html)
 * For MacOS [launchd](https://docs.srv.us/launchd.html)
 * For OpenWrt use [sshtunnel](https://openwrt.org/docs/guide-user/services/ssh/sshtunnel)
+* [sshtunnel for SystemD](https://github.com/yurt-page/sshtunnel) works in Debian, Ubuntu, Arch etc.
+* [NetworkManager SSH plugin](https://github.com/danfruehauf/NetworkManager-ssh) - GUI to use SSH as VPN
 
 ### SSH Services
 * [burrow.io](https://burrow.io/) - SSH, HTTP, basic auth, custom domains. No free plan.
