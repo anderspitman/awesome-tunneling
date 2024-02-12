@@ -21,7 +21,7 @@ following:
   on Z client, and proxy all connections to that domain.
 
 So far I haven't found a tool that does all of this. In particular, while some
-of them can do automatic certs through Lets's Encrypt, none of them integrate
+of them can do automatic certs through Let's Encrypt, none of them integrate
 the domain registration and DNS management.
 
 **UPDATE 2022-09-23:**
