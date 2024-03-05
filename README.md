@@ -93,7 +93,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [LocalXpose](https://localxpose.io) - Looks like a solid paid option, with a limited free tier.
 * [Tabserve.dev](https://tabserve.dev) - Web UI that runs entirely in the browser and uses a Cloudflare Worker for https.
 * [Serveo](https://serveo.net) - SSH-based, signup optional, offering HTTP(S) and TCP tunneling and SSH jump host forwarding capabilities.
-* [btunnel](https://www.btunnel.in) - Expose localhost and local tcp server to the internet. Free plan includes file server, custom http request and response headers, basic auth protection and 1 hour tunnel tuimeout.
+* [btunnel](https://www.btunnel.in) - Expose localhost and local tcp server to the internet. Free plan includes file server, custom http request and response headers, basic auth protection and 1 hour tunnel timeout.
 
 # Overlay networks and other advanced tools
 
