@@ -73,6 +73,8 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [docker-wireguard-tunnel](https://github.com/DigitallyRefined/docker-wireguard-tunnel) [![ngtor github stars badge](https://img.shields.io/github/stars/DigitallyRefined/docker-wireguard-tunnel?style=flat)](https://github.com/DigitallyRefined/docker-wireguard-tunnel/stargazers) - Connect two or more Docker servers together sharing container ports between them via a WireGuard tunnel.
 * [ngtor](https://github.com/theborakompanioni/ngtor) [![ngtor github stars badge](https://img.shields.io/github/stars/theborakompanioni/ngtor?style=flat)](https://github.com/theborakompanioni/ngtor/stargazers) - Easily expose local services via Tor. Written in Java.
 * [Punchmole](https://github.com/Degola/punchmole/) [![punchmole github stars badge](https://img.shields.io/github/stars/Degola/punchmole?style=flat)](https://github.com/Degola/punchmole/stargazers) - Can be integrated directly into an existing Node.js project. Written in JavaScript.
+* [frp-operator](https://github.com/zufardhiyaulhaq/frp-operator) [![frp-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/frp-operator?style=flat)](https://github.com/zufardhiyaulhaq/frp-operator/stargazers) - Kubernetes integration for [FRP](https://github.com/fatedier/frp). MIT License. Written in Go.
+
 
 
 # Commercial/Closed source
