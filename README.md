@@ -70,7 +70,6 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [gt](https://github.com/ao-space/gt)[![gt github stars badge](https://img.shields.io/github/stars/ao-space/gt?style=flat)](https://github.com/ao-space/gt/stargazers) - Supports peer-to-peer direct connection (P2P) and Internet relay. Focus on performance. Written in Go.
 * [holepunch](https://github.com/CypherpunkArmory/holepunch) [![holepunch github stars badge](https://img.shields.io/github/stars/CypherpunkArmory/holepunch?style=flat)](https://github.com/CypherpunkArmory/holepunch/stargazers) - Has nice hosted solution. Uses SSH for muxing.
 * [jkuri/bore](https://github.com/jkuri/bore) [![bore github stars badge](https://img.shields.io/github/stars/jkuri/bore?style=flat)](https://github.com/jkuri/bore/stargazers) - Reverse HTTP/TCP proxy via SSH. Written in Go.
-* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
 * [cactus-tunnel](https://github.com/jeffreytse/cactus-tunnel) [![cactus tunnel github stars badge](https://img.shields.io/github/stars/jeffreytse/cactus-tunnel?style=flat)](https://github.com/jeffreytse/cactus-tunnel/stargazers) - 🌵 A charming TCP tunnel over WebSocket and Browser. Written in TypeScript.
 * [docker-wireguard-tunnel](https://github.com/DigitallyRefined/docker-wireguard-tunnel) [![ngtor github stars badge](https://img.shields.io/github/stars/DigitallyRefined/docker-wireguard-tunnel?style=flat)](https://github.com/DigitallyRefined/docker-wireguard-tunnel/stargazers) - Connect two or more Docker servers together sharing container ports between them via a WireGuard tunnel.
 * [docker-wireguard-tunnel](https://github.com/DigitallyRefined/docker-wireguard-tunnel) [![ngtor github stars badge](https://img.shields.io/github/stars/DigitallyRefined/docker-wireguard-tunnel?style=flat)](https://github.com/DigitallyRefined/docker-wireguard-tunnel/stargazers) - Connect two or more Docker servers together sharing container ports between them via a WireGuard tunnel.
@@ -103,6 +102,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [Homeway](https://homeway.io) - Secure and private remote access for Home Assistant. The free tier has a monthly data limit cap, but unlimited data is only $2.49/month.
 * [btunnel](https://www.btunnel.in) - Expose localhost and local tcp server to the internet. Free plan includes file server, custom http request and response headers, basic auth protection and 1 hour tunnel timeout.
 * [remote.it](https://www.remote.it/) - Tunnels SSH, HTTP/S, TCP, Docker, popular database etc. allows mapping local port to a remote port.
+* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
 
 # Overlay networks and other advanced tools
 
