@@ -30,7 +30,7 @@ A lot of new tools have been developed since the list started, and many tools ha
 
 # Recommendations
 
-* For most people, I currently recommend [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for CloudFlare's other products which means they can offer it for free.
+* For most people, I currently recommend [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's a closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for CloudFlare's other products which means they can offer it for free.
 * If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want. If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs. For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution. It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
 
 # Open source (at least with a reasonably permissive license)
@@ -85,15 +85,15 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client [source code](https://github.com/cloudflare/cloudflared) is Apache 2.0 licensed and written in Golang.
 * [Microsoft Dev Tunnels](https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/overview) - Not as useful for self-hosting (no custom domains and it shows warnings when people visit the URLs), but a solid option for dev work.
 * [Livecycle Docker Extension](https://hub.docker.com/extensions/livecycle/docker-extension) - Offer much more than just tunneling. Have a collaboration layer (Dashboard) that allows you to bring collaborations, debug, and gather feedback from the people you are working with. Share HTTPS URLs.
-* [Beeceptor](https://beeceptor.com/) - Goes beyond tunneling. Rest API mocking and intercepting tool. You can view the live requests and send mocked response. Written in JavaScript.
+* [Beeceptor](https://beeceptor.com/local-tunnel/) - Goes beyond tunneling. Rest API mocking and intercepting tool. You can view the live requests and send mocked responses. Written in JavaScript.
 * [Pinggy](https://pinggy.io/) - SSH based single command HTTPS / TCP / TLS tunnels, no downloads required. Rich terminal interface and a web debugger. Free tier - 60 min timeout. Paid tier allows custom domains with built-in Let's Encrypt certificates.
-* [Loophole](https://loophole.cloud/) - Offers end-to-end TLS encryption with the client automatically getting certs from Let's Encrypt. QR codes for URL sharing. Client is open source. Can serve a local directory over WebDAV. MIT License. Written in Go.
+* [Loophole](https://loophole.cloud/) - Offers end-to-end TLS encryption with the client automatically getting certs from Let's Encrypt. QR codes for URL sharing. The client is open source. Can serve a local directory over WebDAV. MIT License. Written in Go.
 * [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
 * [Packetriot](https://packetriot.com) - Comprehensive alternative to ngrok.  HTTP Inspector, Let's Encrypt integration, doesn't require root and Linux repos for apt, yum and dnf.  Enterprise licenses and self-hosted option.
 * [Horizon Tunnel](https://hrzn.run/) - Easy to use HTTP(S) and websocket tunneling aimed at development. Free tier available. Fixed URL is part of paid plans.
 * [Hoppy](https://hoppy.network/) - WireGuard-based. Provides static IPv4 and IPv6 addresses for your machines, which is a simple and useful level of abstraction. Targeted towards self-hosters and people behind NATs.
 * [gw.run](https://gw.run/) - Specifically focusing on securely exposing internal web apps to a group of people; not for publicly facing apps. Share access via email address then allow users to log in with common login providers like Google.
-* [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple python script.
+* [SSHReach.me](https://sshreach.me/) - Paid SSH-based option. Uses a simple Python script.
 * [KubeSail](https://kubesail.com/) - Company offering tunneling, dynamic DNS, and other services for self-hosting with Kubernetes.
 * [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to work well with Kubernetes.
 * [LocalToNet](https://localtonet.com/) - Supports UDP. Free for a single tunnel. Paid supports custom domains.
@@ -101,9 +101,9 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [Tabserve.dev](https://tabserve.dev) - Web UI that runs entirely in the browser and uses a Cloudflare Worker for https.
 * [Serveo](https://serveo.net) - SSH-based, signup optional, offering HTTP(S) and TCP tunneling and SSH jump host forwarding capabilities.
 * [Homeway](https://homeway.io) - Secure and private remote access for Home Assistant. The free tier has a monthly data limit cap, but unlimited data is only $2.49/month.
-* [btunnel](https://www.btunnel.in) - Expose localhost and local tcp server to the internet. Free plan includes file server, custom http request and response headers, basic auth protection and 1 hour tunnel timeout.
-* [remote.it](https://www.remote.it/) - Tunnels SSH, HTTP/S, TCP, Docker, popular database etc. allows mapping local port to a remote port.
-* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. Client is open source. Server doesn't appear to be.
+* [btunnel](https://www.btunnel.in) - Expose localhost and local tcp server to the internet. The free plan includes file server, custom http request and response headers, basic auth protection and 1 hour tunnel timeout.
+* [remote.it](https://www.remote.it/) - Tunnels SSH, HTTP/S, TCP, Docker, popular database etc. allows mapping a local port to a remote port.
+* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. The client is open source. The server doesn't appear to be.
 
 # Overlay networks and other advanced tools
 
@@ -119,14 +119,14 @@ A lot of new tools have been developed since the list started, and many tools ha
 * [Pritunl](https://pritunl.com/) [![pritunl github stars badge](https://img.shields.io/github/stars/pritunl/pritunl?style=flat)](https://github.com/pritunl/pritunl/stargazers) - Seems quite comprehensive and complicated. OpenVPN, WireGuard, and IPSec support.
 * [Tinc](https://github.com/gsliepen/tinc) [![tinc github stars badge](https://img.shields.io/github/stars/gsliepen/tinc?style=flat)](https://github.com/gsliepen/tinc/stargazers) - Tinc is a peer-to-peer VPN daemon that supports VPNs with an arbitrary number of nodes. Instead of configuring tunnels, you give tinc the location and public key of a few nodes in the VPN. After making the initial connections to those nodes, tinc will learn about all other nodes on the VPN, and will make connections automatically. When direct connections are not possible, data will be forwarded by intermediate nodes. Written in C.
 * [OpenZiti](https://openziti.github.io) - [![OpenZiti github stars badge](https://img.shields.io/github/stars/openziti/ziti?style=flat)](https://github.com/openziti/ziti/stargazers) - Overlay network. The goal of OpenZiti is to extend zero trust all the way into your application, not just to your network. Apache 2.0 license. Written in Go.
-* [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) [![ngrok operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/ngrok-operator?style=flat)](https://github.com/zufardhiyaulhaq/ngrok-operator/stargazers) - Ngrok but integrated with Kubernetes, allows developers on private kubernetes to easily access their services via Ngrok.
+* [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) [![ngrok operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/ngrok-operator?style=flat)](https://github.com/zufardhiyaulhaq/ngrok-operator/stargazers) - Ngrok but integrated with Kubernetes, allows developers on private Kubernetes to easily access their services via Ngrok.
 * [chisel-operator](https://github.com/FyraLabs/chisel-operator/) [![chisel operator github stars badge](https://img.shields.io/github/stars/FyraLabs/chisel-operator?style=flat)](https://github.com/FyraLabs/chisel-operator/stargazers) - Kubernetes integration for Chisel. Similar functionality to inlets. MIT License. Written in Rust.
 * [frp-operator](https://github.com/zufardhiyaulhaq/frp-operator) [![frp-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/frp-operator?style=flat)](https://github.com/zufardhiyaulhaq/frp-operator/stargazers) - Kubernetes integration for [FRP](https://github.com/fatedier/frp). MIT License. Written in Go.
 
 
 # Reference
 
-* [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
+* [Roll your own Ngrok with Nginx, _Let's Encrypt_, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
 * [Poor man's ngrok with tcp proxy and ssh reverse tunnel](https://dev.to/k4ml/poor-man-ngrok-with-tcp-proxy-and-ssh-reverse-tunnel-1fm)
 * [How I built Ngrok Alternative (jprq)](https://dev.to/azimjohn/how-i-built-ngrok-alternative-3n0g)
 * [Great SO answer by AJ ONeal about how these things work](https://stackoverflow.com/a/52614266/943814)
