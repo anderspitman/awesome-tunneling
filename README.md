@@ -22,11 +22,7 @@ following:
 
 So far I haven't found a tool that does all of this. In particular, while some
 of them can do automatic certs through Let's Encrypt, none of them integrate
-the domain registration and DNS management.
-
-**UPDATE 2022-09-23:**
-
-A lot of new tools have been developed since the list started, and many tools have been submitted for addition to the list. It's great to see so much interest in tunneling. That said, I want to make sure this remains a useful resource for not just listing all the possible options, but helping people pick one that will solve their problem. With that goal in mind, I've moved some of the items to a separate section at the bottom. This is dedicated to more complicated tools like overlay networks which can support tunneling and similar use cases, but aren't focused exclusively on tunneling. Please let me know if you think something is in the wrong section.
+the domain registration and DNS management in a simple way.
 
 # Recommendations
 
