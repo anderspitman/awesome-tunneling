@@ -93,7 +93,7 @@ the domain registration and DNS management in a simple way.
 * [inlets](https://inlets.dev/) - Used to be [open source](https://github.com/inlets/inlets-archived); now focused on a polished commercial offering. Designed to work well with Kubernetes.
 * [LocalToNet](https://localtonet.com/) - Supports UDP. Free for a single tunnel. Paid supports custom domains.
 * [LocalXpose](https://localxpose.io) - Looks like a solid paid option, with a limited free tier.
-* [playit.gg](https://playit.gg/) [![playit.gg github stars badge](https://img.shields.io/github/stars/playit-cloud/playit-agent?style=flat)](https://github.com/playit-cloud/playit-agent/stargazers) - Specifically marketed as tunneling for game servers. Client is open source. Server is not. Has a free tier. TCP and UDP supported. Custom domains and dedicated IPs available.
+* [playit.gg](https://playit.gg/) [![playit.gg github stars badge](https://img.shields.io/github/stars/playit-cloud/playit-agent?style=flat)](https://github.com/playit-cloud/playit-agent/stargazers) - Specifically marketed as tunneling for game servers. Client is open source. Server is not. Has a free tier. TCP and UDP supported. Custom domains and dedicated IPs available. Client written in Rust.
 * [Tabserve.dev](https://tabserve.dev) - Web UI that runs entirely in the browser and uses a Cloudflare Worker for https.
 * [Serveo](https://serveo.net) - SSH-based, signup optional, offering HTTP(S) and TCP tunneling and SSH jump host forwarding capabilities.
 * [Homeway](https://homeway.io) - Secure and private remote access for Home Assistant. The free tier has a monthly data limit cap, but unlimited data is only $2.49/month.
