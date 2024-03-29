@@ -26,7 +26,7 @@ the domain registration and DNS management in a simple way.
 
 # Recommendations
 
-* For most people, I currently recommend [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for CloudFlare's other products which means they can offer it for free.
+* For most people, I currently recommend [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for Cloudflare's other products which means they can offer it for free.
 * If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want. If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs. For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution. It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
 
 # Open source (at least with a reasonably permissive license)
@@ -77,7 +77,7 @@ the domain registration and DNS management in a simple way.
 # Commercial/Closed source
 
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
-* [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client [source code](https://github.com/cloudflare/cloudflared) is Apache 2.0 licensed and written in Golang.
+* [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client [source code](https://github.com/cloudflare/cloudflared) is Apache 2.0 licensed and written in Golang.
 * [Microsoft Dev Tunnels](https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/overview) - Not as useful for self-hosting (no custom domains and it shows warnings when people visit the URLs), but a solid option for dev work.
 * [Livecycle Docker Extension](https://hub.docker.com/extensions/livecycle/docker-extension) - Offer much more than just tunneling. Have a collaboration layer (Dashboard) that allows you to bring collaborations, debug, and gather feedback from the people you are working with. Share HTTPS URLs.
 * [Beeceptor](https://beeceptor.com/local-tunnel/?ref=awesome-tunneling) - Goes beyond tunneling. Rest API mocking and intercepting tool. You can view the live requests and send mocked responses. Written in JavaScript.
@@ -133,4 +133,4 @@ the domain registration and DNS management in a simple way.
 
 # Discussions
 
-* [HN comment about needing Namecheap + CloudFlare + ngrok](https://news.ycombinator.com/item?id=24475946).
+* [HN comment about needing Namecheap + Cloudflare + ngrok](https://news.ycombinator.com/item?id=24475946).
