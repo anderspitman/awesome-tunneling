@@ -137,6 +137,7 @@ the domain registration and DNS management in a simple way.
 * [Great SO answer by AJ ONeal about how these things work](https://stackoverflow.com/a/52614266/943814)
 * [Talk by AJ ONeal about tunneling tech](https://youtu.be/E1Q2MWGCADo)
 * [ngrok alternative: localtunnel + Caddy + Lets Encrypt](https://morph027.gitlab.io/blog/localtunnel-ngrok/)
+* [Can You Grok It - Another DIY tunnel blog post](https://0xda.de/blog/2024/04/can-you-grok-it/)
 
 
 # Discussions
