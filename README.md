@@ -77,6 +77,7 @@ the domain registration and DNS management in a simple way.
 * [ngtor](https://github.com/theborakompanioni/ngtor) [![ngtor github stars badge](https://img.shields.io/github/stars/theborakompanioni/ngtor?style=flat)](https://github.com/theborakompanioni/ngtor/stargazers) - Easily expose local services via Tor. Written in Java.
 * [Punchmole](https://github.com/Degola/punchmole/) [![punchmole github stars badge](https://img.shields.io/github/stars/Degola/punchmole?style=flat)](https://github.com/Degola/punchmole/stargazers) - Can be integrated directly into an existing Node.js project. Written in JavaScript.
 * [ephemeral-hidden-service](https://github.com/aurelg/ephemeral-hidden-service) [![ephemeral-hidden-service github stars badge](https://img.shields.io/github/stars/aurelg/ephemeral-hidden-service?style=flat)](https://github.com/aurelg/ephemeral-hidden-service/stargazers) - Create ephemeral Tor hidden services from the command line. Written in Python.
+* [Openport.io](https://openport.io) [![Openport.io github stars badge](https://img.shields.io/github/stars/openportio/openport-go?style=flat)](https://github.com/openportio/openport-go/stargazers) - Open-source client, written in Go. Supports HTTP, TLS and TCP. REST Api. No account needed. Web dashboard. Also works on ESP32.
 
 # Commercial/Closed source
 
