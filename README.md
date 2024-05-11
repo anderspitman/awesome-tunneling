@@ -103,8 +103,9 @@ the domain registration and DNS management in a simple way.
 * [Homeway](https://homeway.io) - Secure and private remote access for Home Assistant. The free tier has a monthly data limit cap, but unlimited data is only $2.49/month.
 * [btunnel](https://www.btunnel.in) - Expose localhost and local tcp server to the internet. The free plan includes file server, custom http request and response headers, basic auth protection and 1 hour tunnel timeout.
 * [remote.it](https://www.remote.it/) - Tunnels SSH, HTTP/S, TCP, Docker, popular database etc. allows mapping a local port to a remote port.
-* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. The client is open source. The server doesn't appear to be.
+* [StaqLab Tunnel](https://tunnel.staqlab.com/) [![Hookdeck CLI github stars badge](https://img.shields.io/github/stars/hookdeck/hookdeck-cli?style=flat)](https://github.com/hookdeck/hookdeck-cli/stargazers) - SSH-based. The client is open source. The server doesn't appear to be.
 * [LocalCan](https://www.localcan.com/) - MacOS app for exposing local apps, has custom domains with built-in Let's Encrypt certificates. It also can publish .local domains on the local network.
+* [Hookdeck CLI](https://github.com/hookdeck/hookdeck-cli) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - Uses the Hookdeck platform to allow asynchronous request to be delivered to the CLI but does not require a Hookdeck account and is free to use. Uses WebSocket connectivity to deliver the inbound events. Provides a [hosted dashboard](https://console.hookdeck.com) that supports request inspection and replays. The CLI is open-source and written in Go.
 
 # Overlay networks and other advanced tools
 
