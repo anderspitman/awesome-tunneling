@@ -128,7 +128,7 @@ the domain registration and DNS management in a simple way.
 * [Ngrok-operator](https://github.com/zufardhiyaulhaq/ngrok-operator) [![ngrok operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/ngrok-operator?style=flat)](https://github.com/zufardhiyaulhaq/ngrok-operator/stargazers) - Ngrok but integrated with Kubernetes, allows developers on private Kubernetes to easily access their services via Ngrok.
 * [chisel-operator](https://github.com/FyraLabs/chisel-operator/) [![chisel operator github stars badge](https://img.shields.io/github/stars/FyraLabs/chisel-operator?style=flat)](https://github.com/FyraLabs/chisel-operator/stargazers) - Kubernetes integration for Chisel. Similar functionality to inlets. MIT License. Written in Rust.
 * [frp-operator](https://github.com/zufardhiyaulhaq/frp-operator) [![frp-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/frp-operator?style=flat)](https://github.com/zufardhiyaulhaq/frp-operator/stargazers) - Kubernetes integration for [FRP](https://github.com/fatedier/frp). MIT License. Written in Go.
-
+* [Mycoria](https://mycoria.org/) [![mycoria github stars badge](https://img.shields.io/github/stars/mycoria/mycoria?style=flat)](https://github.com/mycoria/mycoria/stargazers) - Overlay network where the IPv6 address is the key: Easily share address + public key via a DNS AAAA record or map names locally. Secure by default (firewall included). BSD-3 license. Written in Go.
 
 # Reference
 
