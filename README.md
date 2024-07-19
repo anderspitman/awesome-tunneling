@@ -107,6 +107,7 @@ the domain registration and DNS management in a simple way.
 * [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. The client is open source. The server doesn't appear to be.
 * [LocalCan](https://www.localcan.com/) - MacOS app for exposing local apps, has custom domains with built-in Let's Encrypt certificates. It also can publish .local domains on the local network.
 * [Openport.io](https://openport.io) [![Openport.io github stars badge](https://img.shields.io/github/stars/openportio/openport-go?style=flat)](https://github.com/openportio/openport-go/stargazers) - Open-source client, written in Go. Supports HTTP(S) and TCP. REST Api. No account needed. Web dashboard. Also works on ESP32.
+* [Lokal.so](https://lokal.so/?ref=awesome-tunneling) HTTP/TCP/UDP Tunneling & Debugging, zero-config .local address with https, built-in S3 Server, AI Assistant, avaiable as Desktop GUI, Web, REST API, and *CLI, available on Mac, Windows and Linux.
 
 # Overlay networks and other advanced tools
 
