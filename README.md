@@ -111,6 +111,7 @@ the domain registration and DNS management in a simple way.
 * [LocalCan](https://www.localcan.com/) - MacOS app for exposing local apps, has custom domains with built-in Let's Encrypt certificates. It also can publish .local domains on the local network.
 * [Openport.io](https://openport.io) [![Openport.io github stars badge](https://img.shields.io/github/stars/openportio/openport-go?style=flat)](https://github.com/openportio/openport-go/stargazers) - Open-source client, written in Go. Supports HTTP(S) and TCP. REST Api. No account needed. Web dashboard. Also works on ESP32.
 * [Lokal.so](https://lokal.so/?ref=awesome-tunneling) HTTP/TCP/UDP Tunneling & Debugging, zero-config .local address with https, built-in S3 Server, AI Assistant, avaiable as Desktop GUI, Web, REST API, and *CLI, available on Mac, Windows and Linux.
+* [iroh-net](https://github.com/n0-computer/iroh) Quic/Tcp Tunnel specialized for distributed computing. Iroh-net will take case of hole punching and NAT traversal whenever possible, and fall back to a relay if hole punching does not succeed.
 
 # Overlay networks and other advanced tools
 
