@@ -81,6 +81,7 @@ the domain registration and DNS management in a simple way.
 * [Punchmole](https://github.com/Degola/punchmole/) [![punchmole github stars badge](https://img.shields.io/github/stars/Degola/punchmole?style=flat)](https://github.com/Degola/punchmole/stargazers) - Can be integrated directly into an existing Node.js project. Written in JavaScript.
 * [ephemeral-hidden-service](https://github.com/aurelg/ephemeral-hidden-service) [![ephemeral-hidden-service github stars badge](https://img.shields.io/github/stars/aurelg/ephemeral-hidden-service?style=flat)](https://github.com/aurelg/ephemeral-hidden-service/stargazers) - Create ephemeral Tor hidden services from the command line. Written in Python.
 * [netmask](https://github.com/josephdove/netmask) [![lostproxy github stars badge](https://img.shields.io/github/stars/josephdove/netmask?style=flat)](https://github.com/josephdove/netmask/stargazers) - A TCP/UDP self-hostable network tunneling solution that supports IPv4 and IPv6. Client has a GUI. MIT License. Written in Python.
+* [srv.us](https://docs.srv.us) [![srv.us github stars badge](https://img.shields.io/github/stars/pcarrier/srvus?style=flat)](https://github.com/pcarrier/srvus/stargazers) - SSH-based, 0BSD, written in Go. Terminates TLS. Hostnames based on your key, optionally GitHub and/or GitLab username.
 
 # Commercial/Closed source
 
