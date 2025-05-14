@@ -85,6 +85,7 @@ the domain registration and DNS management in a simple way.
 * [netmask](https://github.com/josephdove/netmask) [![lostproxy github stars badge](https://img.shields.io/github/stars/josephdove/netmask?style=flat)](https://github.com/josephdove/netmask/stargazers) - A TCP/UDP self-hostable network tunneling solution that supports IPv4 and IPv6. Client has a GUI. MIT License. Written in Python.
 * [tunnelite](https://github.com/cristipufu/tunnelite) [![tunnelite github stars badge](https://img.shields.io/github/stars/cristipufu/tunnelite?style=flat)](https://github.com/cristipufu/tunnelite/stargazers) - A self-hostable tunneling solution for TCP, HTTP and WS connections over websockets. CLI client. MIT License. Written in .NET.
 * [mmar](https://github.com/yusuf-musleh/mmar) [![mmar github stars badge](https://img.shields.io/github/stars/yusuf-musleh/mmar?style=flat)](https://github.com/yusuf-musleh/mmar/stargazers) - A zero-dependency, self-hostable, cross-platform HTTP tunnel that exposes your localhost to the world on a public URL. AGPL-3.0 License. Written in Go.
+* [wovenet](https://github.com/kungze/wovenet) [![wovenet github stars badge](https://img.shields.io/github/stars/kungze/wovenet?style=flat)](https://github.com/kungze/wovenet/stargazers) - An open-source application-layer VPN that builds mesh networks and improves network stability, security, and performance. MIT License. Written in Go.
 
 
 # Commercial/Closed source
