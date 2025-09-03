@@ -111,6 +111,7 @@ the domain registration and DNS management in a simple way.
 * [Serveo](https://serveo.net) - SSH-based, signup optional, offering HTTP(S) and TCP tunneling and SSH jump host forwarding capabilities.
 * [Homeway](https://homeway.io) - Secure and private remote access for Home Assistant. The free tier has a monthly data limit cap, but unlimited data is only $2.49/month.
 * [btunnel](https://www.btunnel.in) - Expose localhost and local tcp server to the internet. The free plan includes file server, custom http request and response headers, basic auth protection and 1 hour tunnel timeout.
+* [instatunnel](https://www.instatunnel.my/) - Hosted tunneling service offering HTTP/TCP tunnels and custom domain support. Suitable for quickly exposing local services with built-in HTTPS and simple setup. Allows for 3 simultaneous tunnels
 * [remote.it](https://www.remote.it/) - Tunnels SSH, HTTP/S, TCP, Docker, popular database etc. allows mapping a local port to a remote port.
 * [StaqLab Tunnel](https://tunnel.staqlab.com/) [![staqlab github stars badge](https://img.shields.io/github/stars/abhishekq61/tunnel-client?style=flat)](https://github.com/abhishekq61/tunnel-client/stargazers) - SSH-based. The client is open source. The server doesn't appear to be.
 * [LocalCan](https://www.localcan.com/) - MacOS app for exposing local apps, has custom domains with built-in Let's Encrypt certificates. It also can publish .local domains on the local network.
