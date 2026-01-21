@@ -30,7 +30,6 @@ the domain registration and DNS management in a simple way.
 * If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want. If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs. For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution. It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
 
 # Open source (at least with a reasonably permissive license)
-* [Nilloc](https://nilloc.io/) - Expose localhost to the internet
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js). 
 * [tunnel.pyjam.as](https://tunnel.pyjam.as/) - No custom client; uses WireGuard directly instead. Written in Python. [source code](https://gitlab.com/pyjam.as/tunnel)
 * [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
@@ -90,6 +89,7 @@ the domain registration and DNS management in a simple way.
 
 # Commercial/Closed source
 
+* [Nilloc](https://nilloc.io/) - Expose localhost to the internet
 * [ngrok 2.0](https://ngrok.com/) - Probably the gold standard and most popular. Closed source. Lots of features, including TLS and TCP tunnels. Doesn't require root to run client.
 * [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup) - Excellent free option. Nicely integrates tunneling with the rest of Cloudflare's products, which include DNS and auto HTTPS. Client [source code](https://github.com/cloudflare/cloudflared) is Apache 2.0 licensed and written in Golang.
 * [Microsoft Dev Tunnels](https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/overview) - Not as useful for self-hosting (no custom domains and it shows warnings when people visit the URLs), but a solid option for dev work.
