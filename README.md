@@ -87,6 +87,7 @@ the domain registration and DNS management in a simple way.
 * [tunnelite](https://github.com/cristipufu/tunnelite) [![tunnelite github stars badge](https://img.shields.io/github/stars/cristipufu/tunnelite?style=flat)](https://github.com/cristipufu/tunnelite/stargazers) - A self-hostable tunneling solution for TCP, HTTP and WS connections over websockets. CLI client. MIT License. Written in .NET.
 * [mmar](https://github.com/yusuf-musleh/mmar) [![mmar github stars badge](https://img.shields.io/github/stars/yusuf-musleh/mmar?style=flat)](https://github.com/yusuf-musleh/mmar/stargazers) - A zero-dependency, self-hostable, cross-platform HTTP tunnel that exposes your localhost to the world on a public URL. AGPL-3.0 License. Written in Go.
 * [TunnelAPI 1.0](https://tunnelapi.in/) [![tunnelapi github stars badge](https://img.shields.io/github/stars/vijaypurohit322/api-response-manager?style=flat)](https://github.com/vijaypurohit322/api-response-manager/stargazers) - Expose localhost to the internet. Free secure tunneling as an ngrok alternative. Appears developer focused. MIT License . Written in TypeScript.
+* [YTunnel](https://github.com/yetidevworks/ytunnel) - MIT Licensed, Rust powered, uses your domains and creates Cloudflare Tunnels with easy to use TUI [![ytunnel github stars badge](https://img.shields.io/github/stars/yetidevworks/ytunnel?style=flat)](https://github.com/yetidevworks/ytunnel)
 
 
 # Commercial/Closed source
