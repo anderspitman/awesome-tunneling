@@ -3,8 +3,8 @@ primarily targeted toward self-hosters and developers who want to do things
 like exposing a local webserver via a public domain name, with automatic HTTPS,
 even if behind a NAT or other restricted network.
 
-**NOTE:** We're building a community around self-hosting, data ownership, and decentralization in general.
-Join us over at [IndieBits.io](https://forum.indiebits.io).
+<!--**NOTE:** We're building a community around self-hosting, data ownership, and decentralization in general.
+Join us over at [IndieBits.io](https://forum.indiebits.io).-->
 
 # The dream
 
@@ -27,7 +27,7 @@ the domain registration and DNS management in a simple way.
 # Recommendations
 
 * For most people, I currently recommend [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for Cloudflare's other products which means they can offer it for free.
-* If you want to self-host, there are many options. For something production ready [frp](https://github.com/fatedier/frp) is probably what you want. If you're a developer, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs. For non-developers and those wanting more of a GUI experience, I created [boringproxy](https://boringproxy.io/). It's my take on a comprehensive tunnel proxy solution. It's in beta but currently solves almost everything I want. Once the server is running this is a very easy tool to use and has some nice features.
+* If you want to self-host, there are many options. For something production ready I would look at [Pangolin](https://github.com/fosrl/pangolin) or [frp](https://github.com/fatedier/frp). If you're a developer and want something very simple, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs.
 
 # Open source (at least with a reasonably permissive license)
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js). 
