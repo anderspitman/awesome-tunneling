@@ -1,5 +1,7 @@
 **UPDATE 2026-02-16:** Given the sensitive nature of tunneling tools, I'm going to start requiing at least 100 GitHub stars on any new additions. Projects not hosted on GitHub and commercial offerings will be handled case-by-case. Feel free to open an issue if you see a problem with this policy.
 
+# What is this list for
+
 The purpose of this list is to track and compare tunneling solutions. This is
 primarily targeted toward self-hosters and developers who want to do things
 like exposing a local webserver via a public domain name, with automatic HTTPS,
