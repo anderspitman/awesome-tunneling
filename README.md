@@ -98,6 +98,7 @@ the domain registration and DNS management in a simple way.
 * [ephemeral-hidden-service](https://github.com/aurelg/ephemeral-hidden-service) [![ephemeral-hidden-service github stars badge](https://img.shields.io/github/stars/aurelg/ephemeral-hidden-service?style=flat)](https://github.com/aurelg/ephemeral-hidden-service/stargazers) - Create ephemeral Tor hidden services from the command line. Written in Python.
 * [TunnelAPI 1.0](https://tunnelapi.in/) [![tunnelapi github stars badge](https://img.shields.io/github/stars/vijaypurohit322/api-response-manager?style=flat)](https://github.com/vijaypurohit322/api-response-manager/stargazers) - Expose localhost to the internet. Free secure tunneling as an ngrok alternative. Appears developer focused. MIT License . Written in TypeScript.
 * [YTunnel](https://github.com/yetidevworks/ytunnel) - MIT Licensed, Rust powered, uses your domains and creates Cloudflare Tunnels with easy to use TUI [![ytunnel github stars badge](https://img.shields.io/github/stars/yetidevworks/ytunnel?style=flat)](https://github.com/yetidevworks/ytunnel)
+* [mycrab-tunnel-skill](https://github.com/isgudtek/mycrab-tunnel-skill) - Claude Code skill for autonomous Cloudflare Tunnel setup via mycrab.space API. One-click install, tunnel management, custom domains, plus a dozen 1-click templates (homepage, planner, kanban, dashboard, webcam, webchat, and more).
 
 
 # Commercial/Closed source
