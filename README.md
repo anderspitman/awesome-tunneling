@@ -98,7 +98,6 @@ the domain registration and DNS management in a simple way.
 * [ephemeral-hidden-service](https://github.com/aurelg/ephemeral-hidden-service) [![ephemeral-hidden-service github stars badge](https://img.shields.io/github/stars/aurelg/ephemeral-hidden-service?style=flat)](https://github.com/aurelg/ephemeral-hidden-service/stargazers) - Create ephemeral Tor hidden services from the command line. Written in Python.
 * [TunnelAPI 1.0](https://tunnelapi.in/) [![tunnelapi github stars badge](https://img.shields.io/github/stars/vijaypurohit322/api-response-manager?style=flat)](https://github.com/vijaypurohit322/api-response-manager/stargazers) - Expose localhost to the internet. Free secure tunneling as an ngrok alternative. Appears developer focused. MIT License . Written in TypeScript.
 * [YTunnel](https://github.com/yetidevworks/ytunnel) - MIT Licensed, Rust powered, uses your domains and creates Cloudflare Tunnels with easy to use TUI [![ytunnel github stars badge](https://img.shields.io/github/stars/yetidevworks/ytunnel?style=flat)](https://github.com/yetidevworks/ytunnel)
-* [UpVPN](https://github.com/upvpn/upvpn-app) [![upvpn-app github stars badge](https://img.shields.io/github/stars/upvpn/upvpn-app?style=flat)](https://github.com/upvpn/upvpn-app) - A serverless computing model for WireGuard clients. Uses gRPC or REST APIs to orchestrate the provisioning of WireGuard servers on-demand. GPL License. Written in Rust, Swift, and Kotlin.
 
 
 # Commercial/Closed source
@@ -133,6 +132,7 @@ the domain registration and DNS management in a simple way.
 * [Openport.io](https://openport.io) [![Openport.io github stars badge](https://img.shields.io/github/stars/openportio/openport-go?style=flat)](https://github.com/openportio/openport-go/stargazers) - Open-source client, written in Go. Supports HTTP(S) and TCP. REST Api. No account needed. Web dashboard. Also works on ESP32.
 * [Lokal.so](https://lokal.so/?ref=awesome-tunneling) HTTP/TCP/UDP Tunneling & Debugging, zero-config .local address with https, built-in S3 Server, AI Assistant, available as Desktop GUI, Web, REST API, and *CLI, available on Mac, Windows and Linux.
 * [Optimistix Tunnel](https://optimistixtunnel.com/) - Easily expose your local server to the internet with simple SSH-based tunneling. Supports HTTP(S) and TCP. No signup, no install—just connect and go. Free plan available.
+* [UpVPN](https://UpVPN.app) [![upvpn-app github stars badge](https://img.shields.io/github/stars/upvpn/upvpn-app?style=flat)](https://github.com/upvpn/upvpn-app) - A serverless computing model for WireGuard. [UpVPN apps](https://github.com/upvpn/upvpn-app) orchestrate tunnel setup by using gRPC or REST APIs to provision WireGuard servers on demand.
 
 # Overlay networks and other advanced tools
 
