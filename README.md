@@ -162,6 +162,7 @@ the domain registration and DNS management in a simple way.
 * [Mycoria](https://mycoria.org/) [![mycoria github stars badge](https://img.shields.io/github/stars/mycoria/mycoria?style=flat)](https://github.com/mycoria/mycoria/stargazers) - Overlay network where the IPv6 address is the key: Easily share address + public key via a DNS AAAA record or map names locally. Secure by default (firewall included). BSD-3 license. Written in Go.
 * [Nilloc](https://nilloc.io/) - Developer-focused. Aims to have better pricing than ngrok. Free tier.
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=anderspitman_awesome-tunneling) - Social feed for GitHub. Follow developers, discover trending repos, activity feeds.
 # Reference
 
 * [Roll your own Ngrok with Nginx, Let's Encrypt, and SSH reverse tunnelling](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
