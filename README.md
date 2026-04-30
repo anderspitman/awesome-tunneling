@@ -3,6 +3,18 @@
 # What is this list for
 
 The purpose of this list is to track and compare tunneling solutions. This is
+
+## OpenClaw Monitor
+
+| | |
+|---|---|
+| **Project** | [flik2002/openclaw-monitor](https://github.com/flik2002/openclaw-monitor) |
+| **Description** | Real-time AI agent monitoring dashboard — tracks Gateway status, sessions, token usage & trends |
+| **Stars** | ⭐ 1.3k+ |
+
+![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor/main/Openclaw%20Monitor.jpg)
+
+
 primarily targeted toward self-hosters and developers who want to do things
 like exposing a local webserver via a public domain name, with automatic HTTPS,
 even if behind a NAT or other restricted network.
