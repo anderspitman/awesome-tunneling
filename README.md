@@ -132,6 +132,7 @@ the domain registration and DNS management in a simple way.
 * [Openport.io](https://openport.io) [![Openport.io github stars badge](https://img.shields.io/github/stars/openportio/openport-go?style=flat)](https://github.com/openportio/openport-go/stargazers) - Open-source client, written in Go. Supports HTTP(S) and TCP. REST Api. No account needed. Web dashboard. Also works on ESP32.
 * [Lokal.so](https://lokal.so/?ref=awesome-tunneling) HTTP/TCP/UDP Tunneling & Debugging, zero-config .local address with https, built-in S3 Server, AI Assistant, available as Desktop GUI, Web, REST API, and *CLI, available on Mac, Windows and Linux.
 * [Optimistix Tunnel](https://optimistixtunnel.com/) - Easily expose your local server to the internet with simple SSH-based tunneling. Supports HTTP(S) and TCP. No signup, no install—just connect and go. Free plan available.
+* [Webhook Relay](https://webhookrelay.com/tunnels/?ref=awesome-tunneling) - Expose a local or internal HTTP/TCP service on a stable public hostname without opening firewall ports. Supports custom domains with automatic HTTPS, basic auth, static outgoing IPs and a Kubernetes operator/ingress controller. Free tier available.
 
 # Overlay networks and other advanced tools
 
