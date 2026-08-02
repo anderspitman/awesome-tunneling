@@ -161,6 +161,7 @@ the domain registration and DNS management in a simple way.
 * [frp-operator](https://github.com/zufardhiyaulhaq/frp-operator) [![frp-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/frp-operator?style=flat)](https://github.com/zufardhiyaulhaq/frp-operator/stargazers) - Kubernetes integration for [FRP](https://github.com/fatedier/frp). MIT License. Written in Go.
 * [Mycoria](https://mycoria.org/) [![mycoria github stars badge](https://img.shields.io/github/stars/mycoria/mycoria?style=flat)](https://github.com/mycoria/mycoria/stargazers) - Overlay network where the IPv6 address is the key: Easily share address + public key via a DNS AAAA record or map names locally. Secure by default (firewall included). BSD-3 license. Written in Go.
 * [Nilloc](https://nilloc.io/) - Developer-focused. Aims to have better pricing than ngrok. Free tier.
+* [BitBang](https://github.com/richlegrand/bitbang-cli) [![bitbang github stars badge](https://img.shields.io/github/stars/richlegrand/bitbang-cli?style=flat)](https://github.com/richlegrand/bitbang-cli/stargazers) - Turn your machine into a URL. Device and browser connect peer-to-peer over WebRTC and verify each other's public keys, so the signaling server can route but cannot read traffic or MITM the connection. Whoever opens the link needs no account and nothing installed. Shell, file sharing, and HTTP/WebSocket proxy over a single URL. Written in Go.
 
 # Reference
 
