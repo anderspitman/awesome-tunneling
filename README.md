@@ -163,6 +163,7 @@ the domain registration and DNS management in a simple way.
 * [frp-operator](https://github.com/zufardhiyaulhaq/frp-operator) [![frp-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/frp-operator?style=flat)](https://github.com/zufardhiyaulhaq/frp-operator/stargazers) - Kubernetes integration for [FRP](https://github.com/fatedier/frp). MIT License. Written in Go.
 * [Mycoria](https://mycoria.org/) [![mycoria github stars badge](https://img.shields.io/github/stars/mycoria/mycoria?style=flat)](https://github.com/mycoria/mycoria/stargazers) - Overlay network where the IPv6 address is the key: Easily share address + public key via a DNS AAAA record or map names locally. Secure by default (firewall included). BSD-3 license. Written in Go.
 * [Nilloc](https://nilloc.io/) - Developer-focused. Aims to have better pricing than ngrok. Free tier.
+* [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - [![yggdrasil github stars badge](https://img.shields.io/github/stars/yggdrasil-network/yggdrasil-go?style=flat)](https://github.com/yggdrasil-network/yggdrasil-go/stargazers) - An IPv6-only, end-to-end encrypted overlay network with routing between all network participants. LGPLv3 license. Written in Go.
 
 # Reference
 
