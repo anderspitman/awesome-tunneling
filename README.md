@@ -101,6 +101,7 @@ the domain registration and DNS management in a simple way.
 * [ephemeral-hidden-service](https://github.com/aurelg/ephemeral-hidden-service) [![ephemeral-hidden-service github stars badge](https://img.shields.io/github/stars/aurelg/ephemeral-hidden-service?style=flat)](https://github.com/aurelg/ephemeral-hidden-service/stargazers) - Create ephemeral Tor hidden services from the command line. Written in Python.
 * [TunnelAPI 1.0](https://tunnelapi.in/) [![tunnelapi github stars badge](https://img.shields.io/github/stars/vijaypurohit322/api-response-manager?style=flat)](https://github.com/vijaypurohit322/api-response-manager/stargazers) - Expose localhost to the internet. Free secure tunneling as an ngrok alternative. Appears developer focused. MIT License . Written in TypeScript.
 * [YTunnel](https://github.com/yetidevworks/ytunnel) - MIT Licensed, Rust powered, uses your domains and creates Cloudflare Tunnels with easy to use TUI [![ytunnel github stars badge](https://img.shields.io/github/stars/yetidevworks/ytunnel?style=flat)](https://github.com/yetidevworks/ytunnel)
+* [reverst](https://github.com/flipt-io/reverst) [![reverst github stars badge](https://img.shields.io/github/stars/flipt-io/reverst?style=flat)](https://github.com/flipt-io/reverst/stargazers) - Self-hosted HTTP reverse tunnels over HTTP/3 and QUIC, with load-balanced tunnel groups and host-based routing. Apache-2.0 License. Requires manual TLS/DNS; no formal releases; latest tag v0.2.0 (2024-05-27).
 
 
 # Commercial/Closed source
