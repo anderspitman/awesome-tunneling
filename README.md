@@ -169,6 +169,7 @@ the domain registration and DNS management in a simple way.
 * [Narrowlink](https://github.com/narrowlink/narrowlink) [![narrowlink github stars badge](https://img.shields.io/github/stars/narrowlink/narrowlink?style=flat)](https://github.com/narrowlink/narrowlink/stargazers) - Self-hosted zero-trust remote access platform with gateway, agent, and client components, P2P QUIC, fine-grained access control, and automatic ACME certificates when publishing local webservers. MPL-2.0/AGPL-3.0. Written in Rust.
 * [Twingate](https://www.twingate.com/) - Commercial zero-trust network access service for private resources. Easy outbound connector model, but enrolled-user private access rather than public Internet ingress.
 * [Yggdrasil](https://github.com/yggdrasil-network/yggdrasil-go) - [![yggdrasil github stars badge](https://img.shields.io/github/stars/yggdrasil-network/yggdrasil-go?style=flat)](https://github.com/yggdrasil-network/yggdrasil-go/stargazers) - An IPv6-only, end-to-end encrypted overlay network with routing between all network participants. LGPLv3 license. Written in Go.
+* [Hysteria](https://github.com/apernet/hysteria) [![hysteria github stars badge](https://img.shields.io/github/stars/apernet/hysteria?style=flat)](https://github.com/apernet/hysteria/stargazers) - QUIC-based censorship-resistant proxy and relay (SOCKS5/HTTP, TCP/UDP forwarding, TUN/TProxy) with NAT traversal for hosting the server behind NAT (Realms). MIT License. Written in Go. Note: egress-proxy focused; no built-in public-URL/ngrok-style ingress.
 
 # Reference
 
