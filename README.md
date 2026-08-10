@@ -34,6 +34,7 @@ the domain registration and DNS management in a simple way.
 * If you want to self-host, there are many options. For something production ready I would look at [Pangolin](https://github.com/fosrl/pangolin) or [frp](https://github.com/fatedier/frp). If you're a developer and want something very simple, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs.
 
 # Open source (at least with a reasonably permissive license)
+* [NPS Enhanced](https://github.com/djylb/nps) [![NPS Enhanced github stars badge](https://img.shields.io/github/stars/djylb/nps?style=flat)](https://github.com/djylb/nps/stargazers) - Self-hosted NAT traversal and reverse proxy with a Web UI, HTTP/HTTPS and TCP/UDP forwarding, and automatic certificate support. GPL-3.0 Licensed. Written in Go.
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js). 
 * [tunnel.pyjam.as](https://tunnel.pyjam.as/) - No custom client; uses WireGuard directly instead. Written in Python. [source code](https://gitlab.com/pyjam.as/tunnel)
 * [SSH-J.com](https://bitbucket.org/ValdikSS/dropbear-sshj/) -  Public SSH Jump & Port Forwarding server. No software, no registration, just an anonymous SSH server for forwarding. Users are encouraged to use it for SSH exposure only, to preserve end-to-end encryption. No public ports, only in-SSH connectivity. Run `ssh ssh-j.com` and it will display usage information.
