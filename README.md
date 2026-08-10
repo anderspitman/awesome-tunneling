@@ -140,6 +140,7 @@ the domain registration and DNS management in a simple way.
 * [Lokal.so](https://lokal.so/?ref=awesome-tunneling) HTTP/TCP/UDP Tunneling & Debugging, zero-config .local address with https, built-in S3 Server, AI Assistant, available as Desktop GUI, Web, REST API, and *CLI, available on Mac, Windows and Linux.
 * [Optimistix Tunnel](https://optimistixtunnel.com/) - Easily expose your local server to the internet with simple SSH-based tunneling. Supports HTTP(S) and TCP. No signup, no install—just connect and go. Free plan available.
 * [Svix Play](https://www.svix.com/play/) [![Svix GitHub stars badge](https://img.shields.io/github/stars/svix/svix-webhooks?style=flat)](https://github.com/svix/svix-webhooks/stargazers) - Free, no-signup hosted webhook relay and debugger. Its MIT-licensed CLI exposes a local HTTP webhook endpoint at an automatically generated HTTPS URL with `svix listen URL`; intended for development rather than general-purpose production tunneling.
+* [GetPublicIP](https://getpublicip.com/) - Commercial service that routes a dedicated public IPv4/IPv6 address to a server behind NAT over WireGuard, with TCP, UDP, and ICMP support; users manage their own TLS.
 
 # Overlay networks and other advanced tools
 
