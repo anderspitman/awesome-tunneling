@@ -146,6 +146,7 @@ the domain registration and DNS management in a simple way.
 * [Optimistix Tunnel](https://optimistixtunnel.com/) - Easily expose your local server to the internet with simple SSH-based tunneling. Supports HTTP(S) and TCP. No signup, no install—just connect and go. Free plan available.
 * [Svix Play](https://www.svix.com/play/) [![Svix GitHub stars badge](https://img.shields.io/github/stars/svix/svix-webhooks?style=flat)](https://github.com/svix/svix-webhooks/stargazers) - Free, no-signup hosted webhook relay and debugger. Its MIT-licensed CLI exposes a local HTTP webhook endpoint at an automatically generated HTTPS URL with `svix listen URL`; intended for development rather than general-purpose production tunneling.
 * [GetPublicIP](https://getpublicip.com/) - Commercial service that routes a dedicated public IPv4/IPv6 address to a server behind NAT over WireGuard, with TCP, UDP, and ICMP support; users manage their own TLS.
+* [OtterKit](https://www.otterkit.com/) - CLI (`npx otterkit`) and Mac app for HTTP tunnels plus persistent serverless webhook endpoints: request capture with stored history, replay to localhost, provider signature verification (Stripe/GitHub/Slack/Shopify), and sandboxed scriptable responses. Includes an MCP server so AI agents can provision tunnels and endpoints. Free tier; usage-based paid plans.
 
 # Overlay networks and other advanced tools
 
