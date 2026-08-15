@@ -147,6 +147,8 @@ the domain registration and DNS management in a simple way.
 * [Svix Play](https://www.svix.com/play/) [![Svix GitHub stars badge](https://img.shields.io/github/stars/svix/svix-webhooks?style=flat)](https://github.com/svix/svix-webhooks/stargazers) - Free, no-signup hosted webhook relay and debugger. Its MIT-licensed CLI exposes a local HTTP webhook endpoint at an automatically generated HTTPS URL with `svix listen URL`; intended for development rather than general-purpose production tunneling.
 * [GetPublicIP](https://getpublicip.com/) - Commercial service that routes a dedicated public IPv4/IPv6 address to a server behind NAT over WireGuard, with TCP, UDP, and ICMP support; users manage their own TLS.
 
+* [ProxyLink](https://proxylink.dev/) - Exposes services behind NAT/CGNAT via HTTP/HTTPS/TCP/UDP links with automatic HTTPS, but the tunnel runs on the router or gateway rather than per-host: one WireGuard peer covers the whole LAN and any additional VLANs, so devices that can't run a client (NVRs, PBXs, managed switches) are reachable without installing anything on them. Also provides browser-based RDP, VNC and SSH sessions to those devices. Aimed at MSPs and IT teams rather than dev tunnels. Closed source, EU-hosted. Free during early access.
+
 # Overlay networks and other advanced tools
 
 * [DockFlare](https://github.com/ChrispyBacon-dev/DockFlare) [![DockFlare github stars badge](https://img.shields.io/github/stars/ChrispyBacon-dev/DockFlare?style=flat)](https://github.com/ChrispyBacon-dev/DockFlare/stargazers) - Self-hosted control plane that automates Cloudflare Tunnel, DNS, and Zero Trust Access from Docker labels and a web UI. GPL-3.0. Requires a Cloudflare account and API token. Website: https://dockflare.app
