@@ -124,6 +124,7 @@ the domain registration and DNS management in a simple way.
 * [Loophole](https://loophole.cloud/) - Offers end-to-end TLS encryption with the client automatically getting certs from Let's Encrypt. QR codes for URL sharing. The client is open source. Can serve a local directory over WebDAV. MIT License. Written in Go.
 * [localhost.run](https://localhost.run/) - Simple hosted SSH option. Supports custom domains for a cost.
 * [Packetriot](https://packetriot.com) - Comprehensive alternative to ngrok.  HTTP Inspector, Let's Encrypt integration, doesn't require root and Linux repos for apt, yum and dnf.  Enterprise licenses and self-hosted option.
+* [PortPreview](https://portpreview.com/) - Expose localhost through a public HTTPS URL for webhook debugging, OAuth callbacks, and dev previews. Open-source CLI (Apache-2.0) with request inspection; managed gateway with free tier.
 * [Horizon Tunnel](https://hrzn.run/) - Easy to use HTTP(S) and websocket tunneling aimed at development. Free tier available. Fixed URL is part of paid plans.
 * [Hoppy](https://hoppy.network/) - WireGuard-based. Provides static IPv4 and IPv6 addresses for your machines, which is a simple and useful level of abstraction. Targeted towards self-hosters and people behind NATs.
 * [gw.run](https://gw.run/) - Specifically focusing on securely exposing internal web apps to a group of people; not for publicly facing apps. Share access via email address then allow users to log in with common login providers like Google.
