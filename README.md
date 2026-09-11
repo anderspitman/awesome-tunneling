@@ -147,6 +147,7 @@ the domain registration and DNS management in a simple way.
 * [Svix Play](https://www.svix.com/play/) [![Svix GitHub stars badge](https://img.shields.io/github/stars/svix/svix-webhooks?style=flat)](https://github.com/svix/svix-webhooks/stargazers) - Free, no-signup hosted webhook relay and debugger. Its MIT-licensed CLI exposes a local HTTP webhook endpoint at an automatically generated HTTPS URL with `svix listen URL`; intended for development rather than general-purpose production tunneling.
 * [GetPublicIP](https://getpublicip.com/) - Commercial service that routes a dedicated public IPv4/IPv6 address to a server behind NAT over WireGuard, with TCP, UDP, and ICMP support; users manage their own TLS.
 * [SteadIP](https://steadip.com/) - Offers both free and paid tunneling services. SteadIP Anchor gives your tunnel a dedicated IPv4 address, so your endpoint keeps a stable public IP instead of sharing one.
+* [NSL.SH](https://nsl.sh/) - Free hosted tunnel for self-hosters. Register a name, run one Docker container, and every container with a Caddy label gets `app.name.nsl.sh` with automatic HTTPS. WireGuard based, no static IP or port forwarding needed. Client and server are open source (MIT). [Code](https://github.com/Yundera/mesh-router-tunnel)
 
 # Overlay networks and other advanced tools
 
