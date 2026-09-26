@@ -149,6 +149,7 @@ the domain registration and DNS management in a simple way.
 * [SteadIP](https://steadip.com/) - Offers both free and paid tunneling services. SteadIP Anchor gives your tunnel a dedicated IPv4 address, so your endpoint keeps a stable public IP instead of sharing one.
 
 * [ProxyLink](https://proxylink.dev/) - Exposes services behind NAT/CGNAT via HTTP/HTTPS/TCP/UDP links with automatic HTTPS, but the tunnel runs on the router or gateway rather than per-host: one WireGuard peer covers the whole LAN and any additional VLANs, so devices that can't run a client (NVRs, PBXs, managed switches) are reachable without installing anything on them. Also provides browser-based RDP, VNC and SSH sessions to those devices. Aimed at MSPs and IT teams rather than dev tunnels. Closed source, EU-hosted. Free during early access.
+* [RelaySSH](https://relayssh.com/) - Hosted reverse SSH relay for Raspberry Pi and IoT devices behind CGNAT or LTE. An agent on the device opens an outbound SSH tunnel; you connect with plain `ssh` to a fixed per-device port on the relay, with nothing to install on the client side. Authentication stays on the device's own sshd, so the relay holds no logins. TCP ports only, no HTTP or custom domains. Closed source. $1/device/month, free during beta.
 
 # Overlay networks and other advanced tools
 
