@@ -1,3 +1,5 @@
+**UPDATE 2026-09-28:** Official policy for adding non-open source/commercial services to the list: you must provide some evidence of existing customers that are happy with your product. Google reviews, 100+ GitHub stars, etc. If you are commercial but primarily B2B, you can also have a reputable business that is a customer send me an email vouching for your product. Decisions will still be case-by-case, but I try to be reasonable.
+
 **UPDATE 2026-08-10:** I did a lot of backlog cleanup over the weekend. I used AI to help with automation and write comments, but I tried to make all the yes/no decisions myself. Some things almost certainly slipped through the cracks. If you feel your issue/PR was closed in error, please comment so I can take a closer look.
 
 **UPDATE 2026-02-16:** Given the sensitive nature of tunneling tools, I'm going to start requiring at least 100 GitHub stars on any new additions. Projects not hosted on GitHub and commercial offerings will be handled case-by-case. Feel free to open an issue if you see a problem with this policy.
