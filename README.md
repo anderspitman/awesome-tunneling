@@ -154,6 +154,7 @@ the domain registration and DNS management in a simple way.
 
 * [ProxyLink](https://proxylink.dev/) - Exposes services behind NAT/CGNAT via HTTP/HTTPS/TCP/UDP links with automatic HTTPS, but the tunnel runs on the router or gateway rather than per-host: one WireGuard peer covers the whole LAN and any additional VLANs, so devices that can't run a client (NVRs, PBXs, managed switches) are reachable without installing anything on them. Also provides browser-based RDP, VNC and SSH sessions to those devices. Aimed at MSPs and IT teams rather than dev tunnels. Closed source, EU-hosted. Free during early access.
 * [GetAStatic](https://getastatic.com/) - Commercial WireGuard service that gives you a dedicated static public IPv4 address with inbound TCP/UDP ports you open from a dashboard, so you can host services even behind NAT/CGNAT. Works with any standard WireGuard client, and offers an optional Tailscale exit node add-on. Plans start at $2/month.
+* [Buddy Tunnels](https://buddy.works/docs/tunnels-agents/tunnels) - HTTP, TLS and TCP tunnels started with the `bdy` CLI on Linux, macOS and Windows, without opening inbound firewall ports. Ephemeral tunnels last until the terminal session ends; persistent tunnels run through an installed agent and keep a stable URL. Supports Basic Auth, IP and User-Agent allowlists, a request log where you can inspect and retry requests, and US/EU regions. Domains bought in Buddy can be used for tunnels, with DNS managed in the same dashboard. Free plan available.
 
 # Overlay networks and other advanced tools
 
